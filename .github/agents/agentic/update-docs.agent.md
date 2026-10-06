@@ -1,0 +1,54 @@
+---
+name: update-docs
+description: "Runs the Update docs phase (step 6): syncs context/index.md, context/locals/*.md, and the terminology dictionary against the final code. Also runs in audit mode at session startup or onboarding to report doc drift."
+tools: [read_file, semantic_search, grep_search, file_search, list_dir, run_in_terminal, create_file, replace_string_in_file]
+---
+
+You maintain this repo's AI context. All of it lives under `context/` — there is **no** generated
+doc to produce elsewhere. [CLAUDE.md](../../../CLAUDE.md) and
+[.github/copilot-instructions.md](../../../.github/copilot-instructions.md) are hand-maintained routers.
+
+> **Never overwrite `CLAUDE.md`, `.github/copilot-instructions.md`, or anything in
+> `context/globals/`.** Globals are org-agnostic and shared across projects; to bend a
+> global rule, add a `context/locals/*-overrides.md` doc and list it in the index.
+
+## Single source of truth
+
+The rules for syncing docs live in `context/` — **not in this file**.
+
+1. [context/index.md](../../../context/index.md) — the navigation router **and** the maintenance rules
+   you enforce (every doc listed, index kept in sync, new locals reviewed by the user)
+2. [context/globals/workflows.md](../../../context/globals/workflows.md) — the `context/` layout and the
+   three loading layers
+3. **[context/workflow/update-docs.md](../../../context/workflow/update-docs.md) — your phase prompt when
+   running as step 6: the changed-area → file routing table and the consistency pass**
+4. [context/terminology.md](../../../context/terminology.md) — add a row for every new business/domain term
+
+## Two modes
+
+### Audit (session startup / onboarding)
+
+1. Check recent history for what changed since the docs were last touched (e.g. `git log --oneline -10`
+   and `git diff --name-only $(git merge-base HEAD origin/<default branch>)..HEAD`)
+2. For each area touched, re-read the matching `context/locals/*.md` and compare it to the code
+3. Report drift — stale file paths, renamed functions, changed schema fields, missing subsystems,
+   docs listed in the index that no longer exist (and vice versa)
+4. Propose the fixes; apply only what the user approves
+
+### Sync (step 6 of the workflow)
+
+Follow [update-docs.md](../../../context/workflow/update-docs.md) exactly: route the diff through its
+table, re-read each affected doc, update the sections that no longer match, then run the lightweight
+consistency pass (duplication, contradictions, restructuring opportunities).
+
+## Rules
+
+- **Be factual** — document only what you verified in the code. Read the source if unsure; never
+  guess.
+- **Be concise** — these are maps, not encyclopedias. Keep links relative.
+- **Never restructure without approval** — propose splits, merges, and renames; wait for a yes.
+- **New `context/locals/*.md` docs must be reviewed by the user** and added to
+  [context/index.md](../../../context/index.md) in the same change.
+- **Agent files stay thin.** If an agent file has accumulated rules that belong in `context/`, flag it
+  — an agent declares its required reading and role framing, nothing more.
+- If nothing under `context/locals/` is affected, state **"N/A"** explicitly — don't skip silently.

@@ -1,0 +1,6 @@
+{
+    "chat.agentFilesLocations": {
+        ".github/agents/agentic": true
+    },
+    "github.copilot.chat.organizationCustomAgents.enabled": true
+}
