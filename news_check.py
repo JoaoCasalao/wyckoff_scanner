@@ -72,7 +72,15 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     run_date = sys.argv[1] if len(sys.argv) > 1 else dt.date.today().isoformat()
     out = Path("wyckoff_reports")
-    picks = pd.read_csv(out / f"wyckoff_{run_date}.csv")
+    path = out / f"news_{run_date}.json"
+    try:
+        picks = pd.read_csv(out / f"wyckoff_{run_date}.csv")
+    except pd.errors.EmptyDataError:
+        picks = pd.DataFrame(columns=["ticker", "horizon"])  # no setups passed the filters today
+    if picks.empty:
+        path.write_text("{}", encoding="utf-8")
+        log.info("No picks on %s, wrote empty %s", run_date, path)
+        return
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=NEWS_DAYS)
     today = dt.date.fromisoformat(run_date)
 
@@ -99,7 +107,6 @@ def main():
         }
         log.info("%s: %d news, earnings %s", t, len(news), ed)
 
-    path = out / f"news_{run_date}.json"
     path.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     log.info("News file written to %s", path)
 
