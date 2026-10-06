@@ -39,6 +39,10 @@ jobs:
       - name: Check news for picks
         run: python news_check.py
 
+      - name: Update signal experiment
+        run: python signal_tracker.py
+        continue-on-error: true
+
       - name: Upload reports
         uses: actions/upload-artifact@v4
         with:
@@ -47,13 +51,14 @@ jobs:
             wyckoff_reports/*.html
             wyckoff_reports/*.csv
             wyckoff_reports/*.json
+            experiment/*
           retention-days: 30
 
       - name: Commit reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          git add wyckoff_reports/*.html wyckoff_reports/*.csv wyckoff_reports/*.json
+          git add wyckoff_reports/*.html wyckoff_reports/*.csv wyckoff_reports/*.json experiment/
           if git diff --cached --quiet; then
             echo "No new reports to commit"
           else
