@@ -2,34 +2,32 @@
 """
 Forward test of the Wyckoff scanner signals.
 
-Reads every wyckoff_reports/wyckoff_<date>.csv since the experiment start,
-builds a ledger with one signal per (ticker, horizon) and simulates each one on
-the daily bars that came after the signal. Writes:
+The question is whether each signal behaved as expected: did price reach the
+target inside the horizon window without touching the stop first? There is no
+trade simulation. Every signal starts at the close of its scan day.
 
-  experiment/signals.csv   one row per signal, with outcome and returns
-  experiment/summary.csv   aggregated stats by horizon, setup and score bucket
+For each signal the tracker walks the daily bars that follow and records:
+  - which level came first: TP1 or stop
+  - sessions until TP1 / stop, and whether TP1 came inside the window
+  - whether TP2 was also reached before the stop
+  - how far price went toward TP1 and toward the stop (progress, 0-100%)
+
+Baseline. For a driftless random walk, the chance of reaching TP1 before the
+stop, starting at price P, is (P - stop) / (TP1 - stop). Summing that over the
+signals gives the number of TP1 hits expected by chance. The method shows an
+edge only if the observed hits beat that number by a clear margin.
+
+Outputs:
+  experiment/signals.csv   one row per signal
+  experiment/summary.csv   stats by horizon, setup, score bucket, news flags
   experiment/summary.md    short text summary (read by the morning report)
   experiment/index.html    readable dashboard
 
-Trade rules (fixed for the whole experiment, see experiment/PROTOCOL.md):
-  - Order type comes from entry vs signal close:
-      entry above close -> buy-stop, fills when High >= entry at max(Open, entry)
-      entry below close -> buy-limit, fills when Low <= entry at min(Open, entry)
-      otherwise         -> market order at next Open
-  - Fill window: 10 bars (short), 20 bars (medium, long). No fill = expired.
-  - Half the position exits at TP1, then the stop moves to the fill price.
-    The other half exits at TP2 or at the moved stop.
-  - If stop and target are touched on the same bar, the stop is assumed first.
-  - Max hold: 63 bars (short), 252 (medium), 504 (long). Then exit at close.
-  - Signals still running at the last bar are marked to market.
-
-Prices come from the scanner cache of the same run, so no extra download is
-needed inside GitHub Actions. Missing tickers are downloaded with yfinance.
+Prices come from the scanner cache of the same run. Missing tickers are
+downloaded with yfinance.
 
 Dependencies: pandas, numpy, yfinance
 """
-import argparse
-import datetime as dt
 import html
 import json
 import logging
@@ -41,9 +39,9 @@ import pandas as pd
 EXPERIMENT_START = "2026-10-06"
 EXPERIMENT_END = "2026-12-31"
 
-FILL_WINDOW = {"short": 10, "medium": 20, "long": 20}
-MAX_HOLD = {"short": 63, "medium": 252, "long": 504}
-FWD_DAYS = (5, 10, 20, 40)
+# sessions in which the move is expected to happen
+WINDOW = {"short": 63, "medium": 252, "long": 504}
+CHECKPOINTS = (20, 40, 60)
 
 REPORTS = Path("wyckoff_reports")
 OUT = Path("experiment")
@@ -53,8 +51,18 @@ log = logging.getLogger("tracker")
 
 # ---------------------------------------------------------------- inputs
 
+def load_news(day):
+    f = REPORTS / f"news_{day}.json"
+    if not f.exists():
+        return {}
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
 def load_scans():
-    """All scan rows since the experiment start, oldest first."""
+    """All scan rows inside the experiment window, oldest first."""
     rows = []
     for f in sorted(REPORTS.glob("wyckoff_*.csv")):
         day = f.stem.split("_", 1)[1]
@@ -66,26 +74,16 @@ def load_scans():
             continue
         if df.empty:
             continue
-        df["signal_date"] = day
+        df["scan_file_date"] = day
         news = load_news(day)
-        df["news_negative"] = df["ticker"].map(lambda t: news.get(t, {}).get("keyword_negative", False))
-        df["news_positive"] = df["ticker"].map(lambda t: news.get(t, {}).get("keyword_positive", False))
-        df["earnings_risk"] = df["ticker"].map(lambda t: news.get(t, {}).get("earnings_risk", False))
+        df["news_negative"] = df["ticker"].map(lambda t: bool(news.get(t, {}).get("keyword_negative", False)))
+        df["news_positive"] = df["ticker"].map(lambda t: bool(news.get(t, {}).get("keyword_positive", False)))
+        df["earnings_risk"] = df["ticker"].map(lambda t: bool(news.get(t, {}).get("earnings_risk", False)))
         rows.append(df)
     if not rows:
         return pd.DataFrame()
-    return pd.concat(rows, ignore_index=True).sort_values(["signal_date", "horizon", "score"],
-                                                         ascending=[True, True, False])
-
-
-def load_news(day):
-    f = REPORTS / f"news_{day}.json"
-    if not f.exists():
-        return {}
-    try:
-        return json.loads(f.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return {}
+    return pd.concat(rows, ignore_index=True).sort_values(
+        ["scan_file_date", "horizon", "score"], ascending=[True, True, False]).reset_index(drop=True)
 
 
 def load_prices(tickers):
@@ -110,226 +108,159 @@ def load_prices(tickers):
                 continue
             if not df.empty:
                 frames[t] = df
-    for t, df in frames.items():
+    for t, df in list(frames.items()):
         if getattr(df.index, "tz", None) is not None:
             frames[t] = df.tz_localize(None)
     return frames
 
 
-# ---------------------------------------------------------------- ledger
+# ---------------------------------------------------------------- evaluation
 
-def build_ledger(scans):
-    """One row per (date, horizon, ticker).
+def signal_bar(bars, file_date, price):
+    """Date of the bar the scan used.
 
-    A repeat of the same ticker and horizon on a later day only counts as a new
-    signal after the earlier one has expired or closed. That check needs the
-    simulation, so it happens in run_experiment.
+    The CSV is named with the UTC run date. A late run can carry the next day's
+    date while the last bar is the previous session. Pick the latest bar on or
+    before the file date whose close matches the scan price.
     """
-    scans = scans.copy()
-    scans["signal_id"] = scans["signal_date"] + "_" + scans["horizon"] + "_" + scans["ticker"]
-    return scans.drop_duplicates("signal_id").reset_index(drop=True)
+    upto = bars[bars.index <= pd.Timestamp(file_date)]
+    if upto.empty:
+        return None
+    tail = upto.iloc[-3:]
+    match = tail[(tail["Close"] / price - 1).abs() < 0.005]
+    return (match.index[-1] if not match.empty else upto.index[-1])
 
 
-# ---------------------------------------------------------------- simulation
+def evaluate(sig, bars):
+    """Walk the bars after the signal and record what happened first."""
+    p, stop, tp1, tp2 = float(sig["price"]), float(sig["stop"]), float(sig["tp1"]), float(sig["tp2"])
+    window = WINDOW[sig["horizon"]]
+    res = {"signal_date": None, "status": "no_data", "sessions": 0,
+           "tp1_day": np.nan, "stop_day": np.nan, "tp2_day": np.nan,
+           "same_bar": False, "entry_touched": False,
+           "progress_tp1_pct": np.nan, "progress_stop_pct": np.nan,
+           "p_random": np.nan, "ret_last_pct": np.nan}
 
-def simulate(sig, bars):
-    """Simulate one signal on the bars after its date. Returns a dict of results."""
-    horizon = sig["horizon"]
-    entry, stop, tp1, tp2 = sig["entry"], sig["stop"], sig["tp1"], sig["tp2"]
-    sig_day = pd.Timestamp(sig["signal_date"])
-    after = bars[bars.index > sig_day]
-    ref_close = float(sig["price"])
+    ref = signal_bar(bars, sig["scan_file_date"], p)
+    if ref is None or not (stop < p < tp1):
+        return res
+    res["signal_date"] = ref.date().isoformat()
+    res["p_random"] = (p - stop) / (tp1 - stop)
 
-    res = {"order": "", "status": "pending", "fill_date": None, "fill": np.nan,
-           "exit_date": None, "exit_price": np.nan, "r_multiple": np.nan,
-           "ret_pct": np.nan, "bars_held": 0, "mfe_r": np.nan, "mae_r": np.nan}
-
-    if entry > ref_close * 1.001:
-        res["order"] = "buy-stop"
-    elif entry < ref_close * 0.999:
-        res["order"] = "limit"
-    else:
-        res["order"] = "market"
-
-    # fill
-    fill_i = None
-    for i in range(min(FILL_WINDOW[horizon], len(after))):
-        o, h, l = after["Open"].iloc[i], after["High"].iloc[i], after["Low"].iloc[i]
-        if res["order"] == "market":
-            fill_i, price = i, o
-        elif res["order"] == "buy-stop" and h >= entry:
-            fill_i, price = i, max(o, entry)
-        elif res["order"] == "limit" and l <= entry:
-            fill_i, price = i, min(o, entry)
-        if fill_i is not None:
-            break
-    if fill_i is None:
-        if len(after) >= FILL_WINDOW[horizon]:
-            res["status"] = "expired"
+    after = bars[bars.index > ref].iloc[:window]
+    res["sessions"] = len(after)
+    if after.empty:
+        res["status"] = "running"
         return res
 
-    fill = float(price)
-    risk = fill - stop
-    res["fill_date"] = after.index[fill_i].date().isoformat()
-    res["fill"] = fill
-    if risk <= 0:
-        # opened through the stop: treat as an immediate stop-out at the open
-        res.update(status="stopped", exit_date=res["fill_date"], exit_price=fill,
-                   r_multiple=-1.0, ret_pct=0.0, bars_held=0, mfe_r=0.0, mae_r=-1.0)
-        return res
+    hi = after["High"].cummax()
+    lo = after["Low"].cummin()
+    hit_tp1 = np.flatnonzero(after["High"].values >= tp1)
+    hit_stop = np.flatnonzero(after["Low"].values <= stop)
+    hit_tp2 = np.flatnonzero(after["High"].values >= tp2)
+    hit_entry = np.flatnonzero(after["High"].values >= sig["entry"]) if sig["entry"] > p else np.array([0])
 
-    half_done = False
-    cur_stop = stop
-    realized = 0.0          # in R, weighted by position fraction
-    hi, lo = fill, fill
-    last = min(len(after), fill_i + MAX_HOLD[horizon])
+    first_tp1 = hit_tp1[0] if hit_tp1.size else None
+    first_stop = hit_stop[0] if hit_stop.size else None
+    res["entry_touched"] = bool(hit_entry.size)
 
-    for i in range(fill_i, last):
-        o, h, l, c = (after[k].iloc[i] for k in ("Open", "High", "Low", "Close"))
-        # on the fill bar only the part of the range after the fill counts;
-        # using the full bar is conservative for stops and generous for targets,
-        # so targets are not allowed to trigger on the fill bar
-        hi, lo = max(hi, h), min(lo, l)
-        frac = 0.5 if half_done else 1.0
-
-        # stop first (conservative)
-        if l <= cur_stop:
-            px = min(o, cur_stop) if i > fill_i else cur_stop
-            realized += frac * (px - fill) / risk
-            res.update(status="tp1_then_be" if half_done else "stopped",
-                       exit_date=after.index[i].date().isoformat(), exit_price=px)
-            break
-        if i == fill_i:
-            continue
-        if not half_done and h >= tp1:
-            px = max(o, tp1)
-            realized += 0.5 * (px - fill) / risk
-            half_done = True
-            cur_stop = fill
-            frac = 0.5
-        if half_done and h >= tp2:
-            px = max(o, tp2)
-            realized += 0.5 * (px - fill) / risk
-            res.update(status="tp2", exit_date=after.index[i].date().isoformat(), exit_price=px)
-            break
+    if first_tp1 is not None and (first_stop is None or first_tp1 < first_stop):
+        res["status"] = "tp1_first"
+        res["tp1_day"] = first_tp1 + 1
+        if hit_tp2.size and (first_stop is None or hit_tp2[0] < first_stop):
+            res["tp2_day"] = hit_tp2[0] + 1
+        if first_stop is not None:
+            res["stop_day"] = first_stop + 1
+    elif first_stop is not None:
+        # a bar that touches both levels counts as stop first (conservative)
+        res["status"] = "stop_first"
+        res["stop_day"] = first_stop + 1
+        res["same_bar"] = first_tp1 is not None and first_tp1 == first_stop
+    elif len(after) >= window:
+        res["status"] = "window_expired"
     else:
-        # no exit: time stop or still running
-        c = after["Close"].iloc[last - 1]
-        frac = 0.5 if half_done else 1.0
-        realized += frac * (c - fill) / risk
-        running = last == len(after) and (last - fill_i) < MAX_HOLD[horizon]
-        res.update(status=("open_tp1" if half_done else "open") if running else "time_exit",
-                   exit_date=after.index[last - 1].date().isoformat(), exit_price=float(c))
+        res["status"] = "running"
 
-    res["r_multiple"] = realized
-    res["ret_pct"] = realized * risk / fill * 100
-    exit_ts = pd.Timestamp(res["exit_date"])
-    res["bars_held"] = int(((after.index >= after.index[fill_i]) & (after.index <= exit_ts)).sum())
-    res["mfe_r"] = (hi - fill) / risk
-    res["mae_r"] = (lo - fill) / risk
+    # how far price travelled toward each level before resolution
+    cut = len(after)
+    for d in (first_tp1, first_stop):
+        if d is not None:
+            cut = min(cut, d + 1)
+    res["progress_tp1_pct"] = float(min(1.0, max(0.0, (hi.iloc[cut - 1] - p) / (tp1 - p)))) * 100
+    res["progress_stop_pct"] = float(min(1.0, max(0.0, (p - lo.iloc[cut - 1]) / (p - stop)))) * 100
+    res["ret_last_pct"] = (after["Close"].iloc[-1] / p - 1) * 100
+
+    # fixed checkpoints, only for signals with enough history
+    for n in CHECKPOINTS:
+        if len(after) >= n:
+            t = first_tp1 is not None and first_tp1 < n and (first_stop is None or first_tp1 < first_stop)
+            s = first_stop is not None and first_stop < n and not t
+            res[f"cp{n}"] = "tp1" if t else ("stop" if s else "none")
+        else:
+            res[f"cp{n}"] = ""
     return res
 
 
-def forward_returns(sig, bars, spy):
-    """Plain close-to-close returns after the signal, versus SPY. Independent of trade rules."""
-    out = {}
-    sig_day = pd.Timestamp(sig["signal_date"])
-    b = bars[bars.index >= sig_day]["Close"]
-    s = spy[spy.index >= sig_day]["Close"]
-    if b.empty or b.index[0] != sig_day:
-        return {f"fwd{n}": np.nan for n in FWD_DAYS} | {f"fwd{n}_spy": np.nan for n in FWD_DAYS}
-    for n in FWD_DAYS:
-        if len(b) > n and len(s) > n:
-            out[f"fwd{n}"] = (b.iloc[n] / b.iloc[0] - 1) * 100
-            out[f"fwd{n}_spy"] = (s.iloc[n] / s.iloc[0] - 1) * 100
-        else:
-            out[f"fwd{n}"] = np.nan
-            out[f"fwd{n}_spy"] = np.nan
-    return out
-
-
-def spy_window(spy, start, end):
-    if not start or not end:
-        return np.nan
-    s = spy["Close"]
-    a = s[s.index < pd.Timestamp(start)]
-    b = s[s.index <= pd.Timestamp(end)]
-    if a.empty or b.empty:
-        return np.nan
-    return (b.iloc[-1] / a.iloc[-1] - 1) * 100
-
-
-def run_experiment(ledger, frames):
-    spy = frames.get("SPY")
-    if spy is None:
-        raise SystemExit("SPY prices missing, aborting")
-    results = []
-    busy_until = {}   # (ticker, horizon) -> date the previous signal ended
-    for _, sig in ledger.iterrows():
+def run_experiment(scans, frames):
+    """One signal per (ticker, horizon) while the earlier one is still unresolved."""
+    out = []
+    open_until = {}  # (ticker, horizon) -> date the earlier signal resolved, or None if still open
+    for _, sig in scans.iterrows():
         key = (sig["ticker"], sig["horizon"])
-        if key in busy_until and (busy_until[key] is None or sig["signal_date"] <= busy_until[key]):
-            continue  # repeat of a signal that is still pending or open
+        if key in open_until:
+            end = open_until[key]
+            if end is None or sig["scan_file_date"] <= end:
+                continue
         bars = frames.get(sig["ticker"])
         row = sig.to_dict()
         if bars is None or bars.empty:
             row.update(status="no_data")
-            results.append(row)
+            out.append(row)
             continue
-        r = simulate(sig, bars)
+        r = evaluate(sig, bars)
         row.update(r)
-        row.update(forward_returns(sig, bars, spy))
-        row["spy_ret_pct"] = spy_window(spy, r["fill_date"], r["exit_date"])
-        row["excess_pct"] = row["ret_pct"] - row["spy_ret_pct"] if r["fill_date"] else np.nan
-        if r["status"] in ("pending", "open", "open_tp1"):
-            busy_until[key] = None
-        elif r["status"] == "expired":
-            idx = bars.index[bars.index > pd.Timestamp(sig["signal_date"])]
-            busy_until[key] = idx[min(FILL_WINDOW[sig["horizon"]], len(idx)) - 1].date().isoformat()
+        if r["status"] in ("running", "no_data"):
+            open_until[key] = None
         else:
-            busy_until[key] = r["exit_date"]
-        results.append(row)
-    return pd.DataFrame(results)
+            days = [d for d in (r["tp1_day"], r["stop_day"]) if np.isfinite(d)]
+            n = int(min(days)) if days and r["status"] != "window_expired" else WINDOW[sig["horizon"]]
+            after = bars[bars.index > pd.Timestamp(r["signal_date"])]
+            open_until[key] = after.index[min(n, len(after)) - 1].date().isoformat()
+        out.append(row)
+    df = pd.DataFrame(out)
+    df["signal_id"] = df["signal_date"].astype(str) + "_" + df["horizon"] + "_" + df["ticker"]
+    return df
 
 
 # ---------------------------------------------------------------- summary
 
-CLOSED = ("stopped", "tp1_then_be", "tp2", "time_exit")
-
-
-def boot_ci(x, n=2000, seed=7):
-    """95% bootstrap interval for the mean. Returns (low, high) or (nan, nan)."""
-    x = np.asarray(pd.Series(x).dropna(), dtype=float)
-    if len(x) < 10:
-        return np.nan, np.nan
-    rng = np.random.default_rng(seed)
-    means = rng.choice(x, size=(n, len(x)), replace=True).mean(axis=1)
-    return float(np.percentile(means, 2.5)), float(np.percentile(means, 97.5))
-
-
 def summarize(df, by):
     def agg(g):
-        filled = g[g["fill_date"].notna()]
-        closed = filled[filled["status"].isin(CLOSED)]
+        resolved = g[g["status"].isin(["tp1_first", "stop_first"])]
+        hits = (resolved["status"] == "tp1_first")
+        exp = resolved["p_random"]
+        var = (exp * (1 - exp)).sum()
         d = {
             "signals": len(g),
-            "filled": len(filled),
-            "fill_rate_pct": 100 * len(filled) / len(g) if len(g) else np.nan,
-            "closed": len(closed),
-            "open": len(filled) - len(closed),
-            "win_rate_pct": 100 * (filled["r_multiple"] > 0).mean() if len(filled) else np.nan,
-            "avg_r": filled["r_multiple"].mean(),
-            "median_r": filled["r_multiple"].median(),
-            "total_r": filled["r_multiple"].sum(),
-            "avg_ret_pct": filled["ret_pct"].mean(),
-            "avg_excess_pct": filled["excess_pct"].mean(),
+            "running": int((g["status"] == "running").sum()),
+            "tp1_first": int(hits.sum()),
+            "stop_first": int((resolved["status"] == "stop_first").sum()),
+            "window_expired": int((g["status"] == "window_expired").sum()),
+            "tp2_before_stop": int(g["tp2_day"].notna().sum()),
+            "tp1_rate_pct": 100 * hits.mean() if len(resolved) else np.nan,
+            "random_rate_pct": 100 * exp.mean() if len(resolved) else np.nan,
+            "z_vs_random": (hits.sum() - exp.sum()) / np.sqrt(var) if var > 0 else np.nan,
+            "median_days_tp1": g.loc[g["status"] == "tp1_first", "tp1_day"].median(),
+            "median_days_stop": g.loc[g["status"] == "stop_first", "stop_day"].median(),
+            "avg_progress_tp1_running": g.loc[g["status"] == "running", "progress_tp1_pct"].mean(),
+            "avg_progress_stop_running": g.loc[g["status"] == "running", "progress_stop_pct"].mean(),
         }
-        d["avg_r_ci_low"], d["avg_r_ci_high"] = boot_ci(closed["r_multiple"])
-        for n in FWD_DAYS:
-            x = g[f"fwd{n}"] - g[f"fwd{n}_spy"]
-            d[f"n_fwd{n}"] = int(x.notna().sum())
-            d[f"avg_fwd{n}_vs_spy"] = x.mean()
-            d[f"beat_spy_fwd{n}_pct"] = 100 * (x > 0).mean() if x.notna().any() else np.nan
-        d["fwd20_ci_low"], d["fwd20_ci_high"] = boot_ci(g["fwd20"] - g["fwd20_spy"])
+        for n in CHECKPOINTS:
+            c = g[f"cp{n}"] if f"cp{n}" in g else pd.Series(dtype=str)
+            c = c[c.isin(["tp1", "stop", "none"])]
+            d[f"n_cp{n}"] = len(c)
+            d[f"tp1_by{n}_pct"] = 100 * (c == "tp1").mean() if len(c) else np.nan
+            d[f"stop_by{n}_pct"] = 100 * (c == "stop").mean() if len(c) else np.nan
         return pd.Series(d)
 
     return df.groupby(by, dropna=False).apply(agg, include_groups=False).reset_index()
@@ -338,17 +269,22 @@ def summarize(df, by):
 def add_score_bucket(df):
     df = df.copy()
     df["score_bucket"] = "n/a"
-    for h, g in df.groupby("horizon"):
+    for _, g in df.groupby("horizon"):
         if len(g) >= 6:
             q = g["score"].rank(pct=True)
             df.loc[g.index, "score_bucket"] = np.where(q > 2 / 3, "top", np.where(q <= 1 / 3, "bottom", "mid"))
     return df
 
 
-def fmt(x, nd=2, pct=False):
-    if x is None or (isinstance(x, float) and not np.isfinite(x)):
+def fmt(x, nd=1, pct=False):
+    if x is None or (isinstance(x, (float, np.floating)) and not np.isfinite(x)):
         return "–"
     return f"{x:.{nd}f}{'%' if pct else ''}"
+
+
+GROUPS = (["horizon"], ["horizon", "setup"], ["horizon", "score_bucket"],
+          ["horizon", "news_negative"], ["horizon", "earnings_risk"])
+NAMES = {"short": "Curto prazo", "medium": "Médio prazo", "long": "Longo prazo"}
 
 
 def write_outputs(df, as_of):
@@ -356,10 +292,10 @@ def write_outputs(df, as_of):
     df = add_score_bucket(df)
     df.round(4).to_csv(OUT / "signals.csv", index=False)
 
+    valid = df[df["status"] != "no_data"]
     parts = []
-    for by in (["horizon"], ["horizon", "setup"], ["horizon", "score_bucket"],
-               ["horizon", "news_negative"], ["horizon", "earnings_risk"]):
-        s = summarize(df[df["status"] != "no_data"], by)
+    for by in GROUPS:
+        s = summarize(valid, by)
         s.insert(0, "group_by", "+".join(by))
         parts.append(s)
     summary = pd.concat(parts, ignore_index=True)
@@ -367,59 +303,63 @@ def write_outputs(df, as_of):
 
     main = summary[summary["group_by"] == "horizon"].set_index("horizon")
     lines = [f"# Experiência Wyckoff · ponto de situação {as_of}", "",
-             f"Período {EXPERIMENT_START} a {EXPERIMENT_END}. Sinais únicos: {len(df)}.", ""]
-    names = {"short": "Curto prazo", "medium": "Médio prazo", "long": "Longo prazo"}
+             f"Sinais de {EXPERIMENT_START} a {EXPERIMENT_END}. Sinais únicos: {len(valid)}.", ""]
     for h in ("short", "medium", "long"):
         if h not in main.index:
             continue
         r = main.loc[h]
-        lines.append(f"- {names[h]}. {int(r['signals'])} sinais. {int(r['filled'])} executados. "
-                     f"{int(r['closed'])} fechados. R médio {fmt(r['avg_r'])}. "
-                     f"Taxa de ganho {fmt(r['win_rate_pct'], 0, True)}. "
-                     f"20 dias vs SPY {fmt(r['avg_fwd20_vs_spy'], 2, True)} "
-                     f"(n={int(r['n_fwd20'])}). "
-                     f"IC95 R fechados [{fmt(r['avg_r_ci_low'])}, {fmt(r['avg_r_ci_high'])}].")
+        res = int(r["tp1_first"] + r["stop_first"])
+        lines.append(
+            f"- {NAMES[h]}. {int(r['signals'])} sinais. {int(r['running'])} em curso. "
+            f"TP1 antes do stop {int(r['tp1_first'])}. Stop primeiro {int(r['stop_first'])}. "
+            f"Taxa TP1 {fmt(r['tp1_rate_pct'], 0, True)} contra {fmt(r['random_rate_pct'], 0, True)} ao acaso "
+            f"(n={res}, z={fmt(r['z_vs_random'], 2)}). "
+            f"Mediana até TP1 {fmt(r['median_days_tp1'], 0)} sessões.")
     (OUT / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-
     write_html(df, summary, as_of)
 
 
 def write_html(df, summary, as_of):
     def table(frame, cols, heads):
-        rows = []
+        body = []
         for _, r in frame.iterrows():
             cells = []
             for c in cols:
                 v = r.get(c)
                 if isinstance(v, (float, np.floating)):
                     cells.append(f"<td>{fmt(float(v))}</td>")
+                elif v is None or (isinstance(v, float) and np.isnan(v)):
+                    cells.append("<td>–</td>")
                 else:
-                    cells.append(f"<td>{html.escape(str(v)) if v is not None else '–'}</td>")
-            rows.append("<tr>" + "".join(cells) + "</tr>")
+                    cells.append(f"<td>{html.escape(str(v))}</td>")
+            body.append("<tr>" + "".join(cells) + "</tr>")
         head = "".join(f"<th>{h}</th>" for h in heads)
-        return f"<div class='wrap'><table><thead><tr>{head}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>"
+        return (f"<div class='wrap'><table><thead><tr>{head}</tr></thead>"
+                f"<tbody>{''.join(body)}</tbody></table></div>")
 
-    scols = ["horizon", "signals", "filled", "closed", "open", "win_rate_pct", "avg_r", "median_r",
-             "total_r", "avg_excess_pct", "avg_fwd5_vs_spy", "avg_fwd20_vs_spy", "beat_spy_fwd20_pct", "n_fwd20"]
-    sheads = ["Prazo", "Sinais", "Exec.", "Fech.", "Abertos", "Ganho %", "R méd.", "R mediana",
-              "R total", "Excesso %", "5d vs SPY", "20d vs SPY", "Bate SPY 20d %", "n 20d"]
+    scols = ["signals", "running", "tp1_first", "stop_first", "window_expired", "tp2_before_stop",
+             "tp1_rate_pct", "random_rate_pct", "z_vs_random", "median_days_tp1", "median_days_stop",
+             "tp1_by20_pct", "stop_by20_pct", "n_cp20"]
+    sheads = ["Sinais", "Em curso", "TP1 1.º", "Stop 1.º", "Prazo esgotado", "TP2 s/ stop",
+              "Taxa TP1 %", "Acaso %", "z", "Sessões até TP1", "Sessões até stop",
+              "TP1 em 20s %", "Stop em 20s %", "n 20s"]
+    labels = {"horizon": "Prazo", "setup": "Setup", "score_bucket": "Score",
+              "news_negative": "Notícia neg.", "earnings_risk": "Earnings"}
+    titles = {"horizon": "Por prazo", "horizon+setup": "Por setup", "horizon+score_bucket": "Por score",
+              "horizon+news_negative": "Notícia negativa", "horizon+earnings_risk": "Earnings na janela"}
 
     blocks = []
-    for by, title in ((["horizon"], "Por prazo"), (["horizon", "setup"], "Por setup"),
-                      (["horizon", "score_bucket"], "Por score"), (["horizon", "news_negative"], "Notícia negativa"),
-                      (["horizon", "earnings_risk"], "Earnings na janela")):
-        s = summary[summary["group_by"] == "+".join(by)]
-        cols = by + scols[1:]
-        heads = [{"horizon": "Prazo", "setup": "Setup", "score_bucket": "Score",
-                  "news_negative": "Neg.", "earnings_risk": "Earn."}[b] for b in by] + sheads[1:]
-        blocks.append(f"<h2>{title}</h2>" + table(s, cols, heads))
+    for by in GROUPS:
+        key = "+".join(by)
+        s = summary[summary["group_by"] == key]
+        blocks.append(f"<h2>{titles[key]}</h2>" + table(s, by + scols, [labels[b] for b in by] + sheads))
 
-    recent = df.sort_values("signal_date", ascending=False).head(60)
-    blocks.append("<h2>Últimos sinais</h2>" + table(
-        recent, ["signal_date", "horizon", "ticker", "setup", "order", "status", "entry", "fill", "stop",
-                 "tp1", "tp2", "r_multiple", "ret_pct", "excess_pct"],
-        ["Data", "Prazo", "Ticker", "Setup", "Ordem", "Estado", "Entrada", "Exec.", "Stop", "TP1", "TP2",
-         "R", "Ret %", "vs SPY %"]))
+    recent = df.sort_values(["signal_date", "horizon", "score"], ascending=[False, True, False]).head(80)
+    blocks.append("<h2>Sinais</h2>" + table(
+        recent, ["signal_date", "horizon", "ticker", "setup", "price", "stop", "tp1", "tp2", "status",
+                 "sessions", "tp1_day", "stop_day", "progress_tp1_pct", "progress_stop_pct", "p_random"],
+        ["Data", "Prazo", "Ticker", "Setup", "Preço", "Stop", "TP1", "TP2", "Estado", "Sessões",
+         "Dia TP1", "Dia stop", "Até TP1 %", "Até stop %", "P acaso"]))
 
     page = f"""<!doctype html><html lang="pt"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -433,11 +373,12 @@ th,td{{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;whit
 th{{color:var(--mut);font-weight:500}} td:first-child,th:first-child{{text-align:left}}
 footer{{color:var(--mut);font-size:12px;margin-top:24px;max-width:720px}}
 </style></head><body>
-<h1>Experiência Wyckoff · teste em tempo real</h1>
-<p class="sub">Atualizado {as_of} · período {EXPERIMENT_START} a {EXPERIMENT_END} · regras em PROTOCOL.md</p>
+<h1>Experiência Wyckoff · comportamento dos sinais</h1>
+<p class="sub">Atualizado {as_of} · sinais de {EXPERIMENT_START} a {EXPERIMENT_END} · regras em PROTOCOL.md</p>
 {''.join(blocks)}
-<footer>R = ganho ou perda em múltiplos do risco inicial até ao stop. Excesso = retorno da trade menos
-o SPY no mesmo período. Os retornos a 5 e 20 dias são de fecho a fecho e não dependem das regras de execução.</footer>
+<footer>Cada sinal começa no fecho do dia do scan. Conta o nível que é tocado primeiro, TP1 ou stop.
+Uma sessão que toca os dois conta como stop. "Acaso" é a probabilidade de chegar ao TP1 antes do stop
+num passeio aleatório sem tendência. z acima de 2 indica que os sinais batem o acaso com margem clara.</footer>
 </body></html>"""
     (OUT / "index.html").write_text(page, encoding="utf-8")
 
@@ -445,18 +386,14 @@ o SPY no mesmo período. Os retornos a 5 e 20 dias são de fecho a fecho e não 
 # ---------------------------------------------------------------- main
 
 def main():
-    ap = argparse.ArgumentParser(description="Forward test of the Wyckoff scanner signals")
-    ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
-
     scans = load_scans()
     if scans.empty:
         log.info("No scans in the experiment window yet")
         return
-    ledger = build_ledger(scans)
-    frames = load_prices(sorted(set(ledger["ticker"])) + ["SPY"])
-    df = run_experiment(ledger, frames)
-    as_of = frames["SPY"].index[-1].date().isoformat()
+    frames = load_prices(sorted(set(scans["ticker"])) + ["SPY"])
+    df = run_experiment(scans, frames)
+    as_of = frames["SPY"].index[-1].date().isoformat() if "SPY" in frames else "?"
     write_outputs(df, as_of)
     log.info("Experiment updated: %d signals, prices as of %s", len(df), as_of)
 
