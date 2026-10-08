@@ -1,27 +1,27 @@
-group_by,horizon,signals,filled,fill_rate_pct,closed,open,win_rate_pct,avg_r,median_r,total_r,avg_ret_pct,avg_excess_pct,avg_r_ci_low,avg_r_ci_high,n_fwd5,avg_fwd5_vs_spy,beat_spy_fwd5_pct,n_fwd10,avg_fwd10_vs_spy,beat_spy_fwd10_pct,n_fwd20,avg_fwd20_vs_spy,beat_spy_fwd20_pct,n_fwd40,avg_fwd40_vs_spy,beat_spy_fwd40_pct,fwd20_ci_low,fwd20_ci_high,setup,score_bucket,news_negative,earnings_risk
-horizon,long,13.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,
-horizon,medium,13.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,
-horizon,short,19.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,
-horizon+setup,long,13.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,Acumulação longa,,,
-horizon+setup,medium,13.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,Fim acumulação (Fase D),,,
-horizon+setup,short,2.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,SOS,,,
-horizon+setup,short,3.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,SOS + LPS,,,
-horizon+setup,short,14.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,Spring + teste,,,
-horizon+score_bucket,long,4.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,bottom,,
-horizon+score_bucket,long,4.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,mid,,
-horizon+score_bucket,long,5.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,top,,
-horizon+score_bucket,medium,4.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,bottom,,
-horizon+score_bucket,medium,4.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,mid,,
-horizon+score_bucket,medium,5.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,top,,
-horizon+score_bucket,short,6.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,bottom,,
-horizon+score_bucket,short,6.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,mid,,
-horizon+score_bucket,short,7.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,top,,
-horizon+news_negative,long,13.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,False,
-horizon+news_negative,medium,13.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,False,
-horizon+news_negative,short,19.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,False,
-horizon+earnings_risk,long,10.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,False
-horizon+earnings_risk,long,3.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,True
-horizon+earnings_risk,medium,10.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,False
-horizon+earnings_risk,medium,3.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,True
-horizon+earnings_risk,short,14.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,False
-horizon+earnings_risk,short,5.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,0.0,,,0.0,,,0.0,,,0.0,,,,,,,,True
+group_by,horizon,signals,running,tp1_first,stop_first,window_expired,tp2_before_stop,tp1_rate_pct,random_rate_pct,z_vs_random,median_days_tp1,median_days_stop,avg_progress_tp1_running,avg_progress_stop_running,n_cp20,tp1_by20_pct,stop_by20_pct,n_cp40,tp1_by40_pct,stop_by40_pct,n_cp60,tp1_by60_pct,stop_by60_pct,setup,score_bucket,news_negative,earnings_risk
+horizon,long,16.0,16.0,0.0,0.0,0.0,0.0,,,,,,2.65,11.236,0.0,,,0.0,,,0.0,,,,,,
+horizon,medium,14.0,14.0,0.0,0.0,0.0,0.0,,,,,,3.455,16.821,0.0,,,0.0,,,0.0,,,,,,
+horizon,short,24.0,23.0,0.0,1.0,0.0,0.0,0.0,17.083,-0.454,,2.0,4.172,40.834,0.0,,,0.0,,,0.0,,,,,,
+horizon+setup,long,16.0,16.0,0.0,0.0,0.0,0.0,,,,,,2.65,11.236,0.0,,,0.0,,,0.0,,,Acumulação longa,,,
+horizon+setup,medium,14.0,14.0,0.0,0.0,0.0,0.0,,,,,,3.455,16.821,0.0,,,0.0,,,0.0,,,Fim acumulação (Fase D),,,
+horizon+setup,short,2.0,2.0,0.0,0.0,0.0,0.0,,,,,,7.771,24.461,0.0,,,0.0,,,0.0,,,SOS,,,
+horizon+setup,short,4.0,4.0,0.0,0.0,0.0,0.0,,,,,,8.27,30.836,0.0,,,0.0,,,0.0,,,SOS + LPS,,,
+horizon+setup,short,18.0,17.0,0.0,1.0,0.0,0.0,0.0,17.083,-0.454,,2.0,2.548,46.062,0.0,,,0.0,,,0.0,,,Spring + teste,,,
+horizon+score_bucket,long,5.0,5.0,0.0,0.0,0.0,0.0,,,,,,0.0,36.866,0.0,,,0.0,,,0.0,,,,bottom,,
+horizon+score_bucket,long,5.0,5.0,0.0,0.0,0.0,0.0,,,,,,2.908,6.813,0.0,,,0.0,,,0.0,,,,mid,,
+horizon+score_bucket,long,6.0,6.0,0.0,0.0,0.0,0.0,,,,,,2.876,10.65,0.0,,,0.0,,,0.0,,,,top,,
+horizon+score_bucket,medium,4.0,4.0,0.0,0.0,0.0,0.0,,,,,,4.959,7.302,0.0,,,0.0,,,0.0,,,,bottom,,
+horizon+score_bucket,medium,5.0,5.0,0.0,0.0,0.0,0.0,,,,,,1.321,29.568,0.0,,,0.0,,,0.0,,,,mid,,
+horizon+score_bucket,medium,5.0,5.0,0.0,0.0,0.0,0.0,,,,,,3.96,14.238,0.0,,,0.0,,,0.0,,,,top,,
+horizon+score_bucket,short,8.0,7.0,0.0,1.0,0.0,0.0,0.0,17.083,-0.454,,2.0,3.438,39.647,0.0,,,0.0,,,0.0,,,,bottom,,
+horizon+score_bucket,short,8.0,8.0,0.0,0.0,0.0,0.0,,,,,,0.0,64.974,0.0,,,0.0,,,0.0,,,,mid,,
+horizon+score_bucket,short,8.0,8.0,0.0,0.0,0.0,0.0,,,,,,7.811,26.125,0.0,,,0.0,,,0.0,,,,top,,
+horizon+news_negative,long,16.0,16.0,0.0,0.0,0.0,0.0,,,,,,2.65,11.236,0.0,,,0.0,,,0.0,,,,,False,
+horizon+news_negative,medium,14.0,14.0,0.0,0.0,0.0,0.0,,,,,,3.455,16.821,0.0,,,0.0,,,0.0,,,,,False,
+horizon+news_negative,short,24.0,23.0,0.0,1.0,0.0,0.0,0.0,17.083,-0.454,,2.0,4.172,40.834,0.0,,,0.0,,,0.0,,,,,False,
+horizon+earnings_risk,long,10.0,10.0,0.0,0.0,0.0,0.0,,,,,,3.085,9.449,0.0,,,0.0,,,0.0,,,,,,False
+horizon+earnings_risk,long,6.0,6.0,0.0,0.0,0.0,0.0,,,,,,0.476,20.171,0.0,,,0.0,,,0.0,,,,,,True
+horizon+earnings_risk,medium,10.0,10.0,0.0,0.0,0.0,0.0,,,,,,3.03,19.101,0.0,,,0.0,,,0.0,,,,,,False
+horizon+earnings_risk,medium,4.0,4.0,0.0,0.0,0.0,0.0,,,,,,4.873,9.22,0.0,,,0.0,,,0.0,,,,,,True
+horizon+earnings_risk,short,17.0,16.0,0.0,1.0,0.0,0.0,0.0,17.083,-0.454,,2.0,5.335,33.25,0.0,,,0.0,,,0.0,,,,,,False
+horizon+earnings_risk,short,7.0,7.0,0.0,0.0,0.0,0.0,,,,,,0.393,65.482,0.0,,,0.0,,,0.0,,,,,,True
