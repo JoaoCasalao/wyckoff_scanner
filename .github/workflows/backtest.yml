@@ -1,0 +1,58 @@
+name: Wyckoff backtest
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "First scan date"
+        required: false
+        default: "2019-01-01"
+      limit:
+        description: "Scan only the first N tickers (0 = full NYSE universe)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wyckoff-backtest
+  cancel-in-progress: false
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run backtest
+        run: python backtest.py --start "${{ inputs.start }}" --limit "${{ inputs.limit }}"
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: wyckoff-backtest-${{ github.run_id }}
+          path: backtest/
+          retention-days: 30
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add backtest/
+          if git diff --cached --quiet; then
+            echo "No results to commit"
+          else
+            git commit -m "Wyckoff backtest $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
