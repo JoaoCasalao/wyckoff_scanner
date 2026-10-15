@@ -1,0 +1,312 @@
+{
+  "ABM": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-09-08",
+    "days_to_earnings": -37,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AGL": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": 20,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AMN": {
+    "horizons": [
+      "long",
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": 21,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AVTR": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": 13,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "DV": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": 21,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "ENR": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-17",
+    "days_to_earnings": 33,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "ETSY": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": 13,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "GE": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-20",
+    "days_to_earnings": 5,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "GMED": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": 21,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "HDB": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-17",
+    "days_to_earnings": 2,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "HGTY": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": 20,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "HIPO": {
+    "horizons": [
+      "long",
+      "medium"
+    ],
+    "next_earnings": "2026-10-29",
+    "days_to_earnings": 14,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "HMC": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": 21,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "KSS": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-24",
+    "days_to_earnings": 40,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "LW": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-12-17",
+    "days_to_earnings": 63,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "MEI": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-12-02",
+    "days_to_earnings": 48,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "PPG": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-27",
+    "days_to_earnings": 12,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "QGEN": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": 20,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RGR": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": 13,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RNG": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-22",
+    "days_to_earnings": 7,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "SBS": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": 21,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "SCL": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": 13,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "SON": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-21",
+    "days_to_earnings": 6,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "TEVA": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-03",
+    "days_to_earnings": 19,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "TGT": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-18",
+    "days_to_earnings": 34,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "WEAV": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": 21,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "WOR": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-12-15",
+    "days_to_earnings": 61,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "XYZ": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-03",
+    "days_to_earnings": 19,
+    "earnings_risk": true,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  }
+}
