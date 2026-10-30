@@ -1,0 +1,31 @@
+horizon,setup,price,entry,stop,tp1,tp2,risk_pct,rr,score,note,ticker
+short,SOS + LPS,160.59,159.69,154.17,178.52,198.14,3.46,3.41,83.71,Range 139.28-158.90 · vol up/down 1.44 · RS20 +11.5%,PG
+short,SOS + LPS,25.47,25.39,24.56,29.96,34.65,3.25,5.53,81.61,Range 20.58-25.27 · vol up/down 1.39 · RS20 +7.7%,SONY
+short,SOS + LPS,127.22,125.09,121.68,137.32,150.03,2.73,3.58,80.59,Range 111.89-124.60 · vol up/down 1.40 · RS20 +8.2%,TD
+short,SOS + LPS,817500.0,808539.34,791484.93,882628.0,959153.0,2.11,4.34,79.74,Range 729578.00-806103.00 · vol up/down 1.18 · RS20 +8.0%,BRK-A
+short,SOS,39.14,38.83,37.31,45.74,52.87,3.91,4.55,76.86,Range 31.48-38.61 · vol up/down 1.49 · RS20 +16.1%,RELX
+short,SOS,37.16,35.82,33.6,43.96,52.42,6.21,3.66,76.24,Range 27.05-35.51 · vol up/down 1.55 · RS20 +17.1%,HIPO
+short,SOS + LPS,33.97,33.97,32.43,38.07,42.39,4.55,2.65,75.69,Range 29.43-33.75 · vol up/down 1.03 · RS20 +10.5%,KMI
+short,SOS,108.81,108.89,102.77,137.63,167.25,5.62,4.7,73.18,Range 78.39-108.01 · vol up/down 1.12 · RS20 +19.8%,EL
+short,SOS + LPS,198.23,201.69,191.4,229.55,258.69,5.1,2.71,72.38,Range 171.25-200.40 · vol up/down 0.87 · RS20 +8.5%,HCI
+short,SOS,40.06,39.37,37.39,49.75,60.41,5.04,5.23,71.83,Range 28.43-39.09 · vol up/down 1.49 · RS20 +10.0%,CNK
+medium,LPS pós-SOS (Fase E),50.34,47.28,38.43,62.32,77.36,18.73,1.7,73.76,Base 32.24-47.28 · queda prévia 44% · vol up/down 2.57,QGEN
+medium,LPS pós-SOS (Fase E),108.81,108.72,87.76,143.3,177.88,19.27,1.65,72.17,Base 74.14-108.72 · queda prévia 38% · vol up/down 1.51,EL
+medium,LPS pós-SOS (Fase E),37.16,35.87,28.73,47.66,59.45,19.9,1.65,72.06,Base 24.08-35.87 · queda prévia 38% · vol up/down 1.96,HIPO
+medium,LPS pós-SOS (Fase E),23.15,22.94,18.38,30.36,37.79,19.88,1.63,67.73,Base 15.51-22.94 · queda prévia 57% · vol up/down 1.55,ENR
+medium,Fim acumulação (Fase D),422.02,422.02,360.85,556.02,677.69,14.49,2.19,66.09,Base 312.68-434.35 · queda prévia 40% · vol up/down 1.50,ELV
+medium,Fim acumulação (Fase D),42.88,42.88,37.75,60.89,75.44,11.96,3.51,65.25,Base 31.78-46.33 · queda prévia 38% · vol up/down 1.26,AVNT
+medium,Fim acumulação (Fase D),178.14,178.14,154.59,238.52,291.28,13.22,2.56,62.75,Base 133.01-185.77 · queda prévia 50% · vol up/down 1.49,BR
+medium,LPS pós-SOS (Fase E),416.67,386.26,317.74,501.12,615.98,17.74,1.68,62.69,Base 271.40-386.26 · queda prévia 22% · vol up/down 1.61,WST
+medium,Fim acumulação (Fase D),64.23,64.23,57.0,83.93,100.31,11.26,2.72,62.53,Base 51.15-67.54 · queda prévia 27% · vol up/down 1.79,WOR
+medium,Fim acumulação (Fase D),34.6,34.6,30.3,49.74,61.96,12.43,3.52,61.52,Base 25.30-37.52 · queda prévia 39% · vol up/down 1.31,TDC
+long,Acumulação longa,85.94,85.94,55.86,371.74,580.1,35.0,9.5,74.55,Queda 99% do máx. · 30 sem. sem novo mínimo · vol up/down 1.76,AGL
+long,Acumulação longa,83.7,83.7,54.4,168.67,251.41,35.0,2.9,70.04,Queda 92% do máx. · 38 sem. sem novo mínimo · vol up/down 2.04,RNG
+long,Acumulação longa,46.94,46.94,30.51,72.04,104.69,35.0,1.53,69.47,Queda 88% do máx. · 42 sem. sem novo mínimo · vol up/down 1.52,AMN
+long,Acumulação longa,91.59,91.59,59.53,175.88,251.31,35.0,2.63,66.72,Queda 86% do máx. · 36 sem. sem novo mínimo · vol up/down 1.64,ETSY
+long,Acumulação longa,13.57,13.57,8.82,25.32,35.43,35.0,2.47,61.76,Queda 82% do máx. · 51 sem. sem novo mínimo · vol up/down 1.38,DV
+long,Acumulação longa,15.43,15.43,10.03,24.98,36.52,35.0,1.77,57.94,Queda 89% do máx. · 32 sem. sem novo mínimo · vol up/down 1.37,MEI
+long,Acumulação longa,16.49,16.49,10.72,34.84,50.5,35.0,3.18,57.76,Queda 88% do máx. · 50 sem. sem novo mínimo · vol up/down 1.32,BHVN
+long,Acumulação longa,9.27,9.27,6.03,289.42,452.43,35.0,86.35,54.75,Queda 99% do máx. · 30 sem. sem novo mínimo · vol up/down 1.31,CHPT
+long,Acumulação longa,141.39,141.39,91.9,227.97,301.52,35.0,1.75,53.53,Queda 72% do máx. · 40 sem. sem novo mínimo · vol up/down 1.37,TFX
+long,Acumulação longa,76.95,76.95,50.02,152.08,211.49,35.0,2.79,52.31,Queda 81% do máx. · 37 sem. sem novo mínimo · vol up/down 1.26,XYZ
