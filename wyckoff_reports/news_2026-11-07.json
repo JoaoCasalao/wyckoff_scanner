@@ -1,0 +1,1950 @@
+{
+  "ABM": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-12-16",
+    "days_to_earnings": 39,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Is Cintas Stock Really Expensive?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ctas/articles/622942/is-cintas-stock-really-expensive/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Are You Overpaying For Cintas Stock Versus Its Rivals?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ctas/articles/622298/are-you-overpaying-for-cintas-stock-versus-its-rivals/2026-11-03",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "What Could Lift Cintas Stock?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ctas/articles/621813/what-could-lift-cintas-stock/2026-11-02",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AGL": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -3,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "agilon health Stock What Changed After Earnings Beat And Higher 2026 Guidance",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/news/agilon-health-stock-changed-earnings-141639858.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "agilon health (AGL) Q3 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/agilon-health-agl-q3-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Agilon Health Inc (AGL) (Q3 2026) Earnings Call Highlights: Guidance Raised as Adjusted EBITDA ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/healthcare/articles/agilon-health-inc-agl-q3-091140349.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Agilon Health Q3 Earnings Call Highlights",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-agilon-health-q3-earnings-call-highlights-2026-11-05/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "3 US Healthcare Stocks With Medicare And Medicaid Exposure Investors Should Watch",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/healthcare/articles/3-us-healthcare-stocks-medicare-001747623.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Compared to Estimates, Agilon (AGL) Q3 Earnings: A Look at Key Metrics",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-agilon-agl-q3-000003892.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Agilon Health (AGL) Q3 Earnings and Revenues Surpass Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/agilon-health-agl-q3-earnings-234517086.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Agilon: Q3 Earnings Snapshot",
+        "source": "Associated Press",
+        "url": "https://finance.yahoo.com/healthcare/articles/agilon-q3-earnings-snapshot-230320120.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "agilon health (NYSE:AGL) delivers impressive Q3 2026, full-year outlook slightly exceeds expectations",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/healthcare/articles/agilon-health-nyse-agl-delivers-211546309.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AJG": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-28",
+    "days_to_earnings": 82,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-04",
+        "title": "PRU Q3 Earnings Beat Estimates on PGIM and U.S. Protection Strength",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pru-q3-earnings-beat-estimates-163300863.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "5 revealing analyst questions from Arthur J. Gallagher’s Q3 earnings call",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-arthur-163736318.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "BRO's Organic Growth Slows: Can COMPASS Platform Improve Efficiency?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bros-organic-growth-slows-compass-161700062.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AMN": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -2,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "AMN Healthcare Services Q3 Earnings Call Highlights",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-amn-healthcare-services-q3-earnings-call-highlights-2026-11-06/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "AMN Healthcare (AMN) Q3 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/amn-healthcare-amn-q3-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "AMN Healthcare Services Inc (AMN) (Q3 2026) Earnings Call Highlights: Revenue Jumps 13% as ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/healthcare/articles/amn-healthcare-services-inc-amn-052348542.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "AMN Healthcare Services (AMN) Q3 Earnings and Revenues Surpass Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amn-healthcare-services-amn-q3-000019292.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "AMN Healthcare (AMN) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amn-healthcare-amn-q3-earnings-000002518.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "AMN Healthcare Services (NYSE:AMN) delivers strong Q3 2026 numbers, next quarter’s sales guidance is optimistic",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/healthcare/articles/amn-healthcare-services-nyse-amn-233827939.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "AMN Healthcare: Q3 Earnings Snapshot",
+        "source": "Associated Press",
+        "url": "https://finance.yahoo.com/healthcare/articles/amn-healthcare-q3-earnings-snapshot-223647891.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Defense Stocks To Research As Middle East Risk Puts Aerospace Shares In Focus",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/defense-stocks-research-middle-east-110850211.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AVTR": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -10,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-03",
+        "title": "3 unpopular stocks with open questions",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-open-questions-090136119.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BHVN": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-29",
+    "days_to_earnings": -9,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-03",
+        "title": "Pfizer Inc. Q3 2026 Earnings Call Summary",
+        "source": "Moby",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-pfizer-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BR": {
+    "horizons": [
+      "medium",
+      "short"
+    ],
+    "next_earnings": "2027-02-02",
+    "days_to_earnings": 87,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "G Q3 Earnings Beat Estimates on ATS Growth, Margins Expand",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/g-q3-earnings-beat-estimates-141200251.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "US large-cap dividend hike watch: 10 stocks with the longest growth streaks",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-large-cap-dividend-hike-200111452.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "11-4-2026: Nooks Secures $500M, Launches AI Sales Assistant ‘Node'",
+        "source": "NYSE",
+        "url": "https://finance.yahoo.com/video/11-4-2026-nooks-secures-163841985.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Broadridge Exec Danielle Gurrieri Talks Tokenization Transfer Agents + Earnings",
+        "source": "NYSE",
+        "url": "https://finance.yahoo.com/video/broadridge-exec-danielle-gurrieri-talks-162208721.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Broadridge Financial Solutions, Inc. Q1 2027 Earnings Call Summary",
+        "source": "Moby",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-broadridge-financial-solutions-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Broadridge Financial Solutions Inc (BR) (Q1 2027) Earnings Call Highlights: Recurring Revenue ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-solutions-inc-br-090458107.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "How Investors May Respond To Broadridge Financial Solutions (BR) Earnings Beat",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-broadridge-financial-071019132.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Broadridge Financial Solutions (BR) Ties Its Governance Tools To A New Tokenized Market",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/broadridge-financial-solutions-br-ties-032214492.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Broadridge: 3 Key Takeaways for Long-Term Investors",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/takeaways/2026/11/03/broadridge-3-key-takeaways-for-long-term-investors/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Broadridge (BR) Q1 2027 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/03/broadridge-br-q1-2027-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "CHPT": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-12-02",
+    "days_to_earnings": 25,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-05",
+        "title": "ChargePoint Holdings, Inc. (CHPT) Stock Moves -3.94%: What You Should Know",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/chargepoint-holdings-inc-chpt-stock-221503669.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Holley Inc. (HLLY) Lags Q3 Earnings and Revenue Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/holley-inc-hlly-lags-q3-133512657.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Needham names Carvana top pick, flags bullish catalysts for EV stocks",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/needham-names-carvana-top-pick-232158490.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "OPENLANE (OPLN) Q3 Earnings and Revenues Beat Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/openlane-opln-q3-earnings-revenues-125505265.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "CUBI": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2027-01-21",
+    "days_to_earnings": 75,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "DCOM": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2027-01-20",
+    "days_to_earnings": 74,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "DHR": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-27",
+    "days_to_earnings": 81,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-05",
+        "title": "Are You Overpaying For Abbott Stock Versus Its Rivals?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/abt/articles/622946/are-you-overpaying-for-abbott-stock-versus-its-rivals/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Danaher (DHR) Stock Fair Value Rises After Higher Analyst Targets And Q3 Commentary",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-stock-fair-value-062023916.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Guidance Up, Trend Intact: Mettler-Toledo Is Today's Double-Confirmation Stock",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/mtd/articles/622577/guidance-up-trend-intact-mettler-toledo-is-todays-double-confirmation-stock/2026-11-04",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Danaher (DHR) Wins FDA Clearance For Hemorrhagic Fever Test With Four Virus Detection",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/healthcare/articles/danaher-dhr-wins-fda-clearance-171035506.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Danaher (DHR) Stock Looks Fully Priced Despite Its 18% Three Year Gain",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-stock-looks-fully-131130398.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Learn Why The Bull Case For Danaher (DHR) Could Change Following FDA Test Clearance",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/healthcare/articles/learn-why-bull-case-danaher-111452955.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Danaher (DHR), Why Is It Drawing Fresh Attention Today?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/healthcare/articles/danaher-dhr-why-drawing-fresh-101407461.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "What Are Danaher Investors Betting On?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/dhr/articles/622141/what-are-danaher-investors-betting-on/2026-11-03",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "1 profitable stock for long-term investors and 2 we question",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-long-term-102936586.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "AMETEK Reports Soon: How Has The Stock Reacted To Past Earnings?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ame/articles/621745/ametek-reports-soon-how-has-the-stock-reacted-to-past-earnings/2026-11-02",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "DIS": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-17",
+    "days_to_earnings": 10,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "What Just Happened To Liberty Media Stock?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/fwona/articles/623360/what-just-happened-to-liberty-media-stock/2026-11-06",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Disney struggles as Netflix pulls away: Time to buy the dip?",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/disney-struggles-netflix-pulls-away-103406881.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Playtika Holding Corp. Q3 2026 Earnings Call Summary",
+        "source": "Moby",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-playtika-holding-corp-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Playtika Holding Corp (PLTK) (Q3 2026) Earnings Call Highlights: Record Adjusted EBITDA Margin ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/playtika-holding-corp-pltk-q3-031211056.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "How to Play DIS Stock as Disney Eyes 20% Cost Cuts and Thousands of Layoffs",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8676893/how-to-play-dis-stock-as-disney-eyes-20-cost-cuts-and-thousands-of-layoffs",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Disney (DIS) Stock Looks Fairly Valued As Cash Flow Holds Up",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-looks-fairly-151806694.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Previewing the jobs report: The labor market is 'mixed at best'",
+        "source": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/previewing-the-jobs-report-the-labor-market-is-mixed-at-best-145949386.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "I've Been Writing About Disney Stock for 30 Years. Here's Why My Conviction Has Never Been Higher.",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/05/ive-been-writing-about-disney-stock-for-30-years-h/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "This ‘Opportunist’ Eyes Bargains in Shares of Uber, Markel, Atlanta Braves",
+        "source": "Barrons.com",
+        "url": "https://www.barrons.com/articles/uber-markel-atlanta-braves-stocks-value-investing-boyar-11b205e9?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "ETFs Are Buying Disney (DIS) on Nov. 3",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-disney-dis-nov-110138323.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "EL": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-02-03",
+    "days_to_earnings": 88,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Earnings Calendar and Analysis for This Week",
+        "source": "Kiplinger",
+        "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "COTY or EL: Which Is the Better Value Stock Right Now?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coty-el-better-value-stock-154002170.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Estée Lauder CEO Declares 'Best Is Yet To Come' With Ambitious 2030 Growth Targets",
+        "source": "Benzinga",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/est-e-lauder-ceo-declares-163007963.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "EL's Fiscal 2030 Roadmap Targets Stronger Growth & Higher Margins",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/els-fiscal-2030-roadmap-targets-145000338.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "3 Growth Stocks With Earnings Growth Over 24% To Watch",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-earnings-growth-211446096.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Estée Lauder Raises FY27 Outlook, Maps Path to 18.5% Margin by 2030",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/event-este-lauder-raises-fy27-outlook-maps-path-to-185-margin-by-2030-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "KHC Q3 Earnings Top Estimates, Emerging Markets Sales Rise",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/khc-q3-earnings-top-estimates-150500280.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Estée Lauder Price Targets Raised By Multiple Analysts Following Q1 Earnings Beat — What Investors Need To Know",
+        "source": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/estee-lauder-price-targets-raised-by-multiple-analysts-following-q1-earnings-beat-what-investors-need-to-know/cNGLfQIR93W",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Estée Lauder Targets Mid-Single-Digit Sales Growth and Higher Profit Margins by Fiscal 2030",
+        "source": "InvestorsHub",
+        "url": "https://investorshub.advfn.com/market-news/article/39224/estee-lauder-targets-mid-single-digit-sales-growth-and-higher-profit-margins-by-fiscal-2030",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Estee Lauder (EL) Is Up 0.52% in One Week: What You Should Know",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/estee-lauder-el-0-52-160002712.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "ELV": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-28",
+    "days_to_earnings": 82,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "HUM Q3 Earnings Beat Estimates on Strong Insurance Performance",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/hum-q3-earnings-beat-estimates-172700216.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Did The Market Read Molina Healthcare Stock Right?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/moh/articles/622875/did-the-market-read-molina-healthcare-stock-right/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Insurer Sues Autism-Therapy Provider Over $160 Million in Allegedly Misleading Claims",
+        "source": "The Wall Street Journal",
+        "url": "https://www.wsj.com/health/healthcare/insurer-sues-autism-therapy-provider-over-160-million-in-allegedly-misleading-claims-704ab4e4?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Has The Story Under Centene Stock Run Out?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/cnc/articles/622969/has-the-story-under-centene-stock-run-out/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Can Higher Premiums Help Humana Beat Q3 Earnings Estimates?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/higher-premiums-help-humana-beat-144500214.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "3 Defensive Dividend Stocks To Watch If Washington Shakes Markets",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-defensive-dividend-stocks-watch-121542727.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "What Needs To Be True To Buy Elevance Health Stock?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/elv/articles/622863/what-needs-to-be-true-to-buy-elevance-health-stock/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Has UnitedHealth Stock Become A Different Bet?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/unh/articles/622801/has-unitedhealth-stock-become-a-different-bet/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "CVS Tumbles 12% on Plan to Split Into Two Companies Despite Earnings Beat; Elevance Health Rises 4%, Cigna Climbs 3%",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/04/cvs-tumbles-12-on-plan-to-split-into-two-companies-despite-earnings-beat-elevance-health-rises-4-cigna-climbs-3/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Health insurers, hospitals rally after sweeping midterm win for Democrats",
+        "source": "Reuters",
+        "url": "https://finance.yahoo.com/healthcare/articles/health-insurers-hospitals-rally-sweeping-150037226.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "ETSY": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -10,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Will Strong Earnings And Buyback Change Etsy Stock Narrative",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/strong-earnings-buyback-change-etsy-201313394.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "buyback"
+        ]
+      },
+      {
+        "date": "2026-11-06",
+        "title": "What Is Next For Etsy (ETSY) After CFO Lanny Baker's Planned Exit?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/next-etsy-etsy-cfo-lanny-101210098.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "What Is Behind The Move In Coupang Stock?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/cpng/articles/623001/what-is-behind-the-move-in-coupang-stock/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Could You Have Seen The Run In eBay Stock Coming?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ebay/articles/622961/could-you-have-seen-the-run-in-ebay-stock-coming/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Why Is Everyone Ignoring Pinterest Stock's High Cash Yield?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/pins/articles/622832/why-is-everyone-ignoring-pinterest-stocks-high-cash-yield/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Etsy Is Up 66% This Year. Shopify Is Down 9%. Did Investors Pick the Wrong E-Commerce Stock?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/etsy-is-up-67-this-year-shopify-is-down-12-did-investors-pick-the-wrong-e-commerce-stock?ref=yahoofinance&tlnk=yf-261103-hw85fm4p",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Etsy Q3 Earnings Call Highlights Growth and AI Priorities",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etsy-q3-earnings-call-highlights-140000606.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Shopify Plunges 17% as GMV and Subscription Revenue Miss Estimates; Wix Drops 3%, Etsy Dips",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/03/shopify-plunges-17-as-gmv-and-subscription-revenue-miss-estimates-wix-drops-3-etsy-dips/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "ETSY Q3 deep dive: AI-driven personalization and marketplace differentiation propel growth",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etsy-q3-deep-dive-ai-050936731.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-10-31",
+        "title": "5 insightful analyst questions from Etsy’s Q3 earnings call",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-etsy-115529481.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  },
+  "GIC": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-03",
+    "days_to_earnings": -4,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-04",
+        "title": "Global Industrial (GIC) Q3 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/global-industrial-gic-q3-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Global Industrial Company Q3 2026 Earnings Call Summary",
+        "source": "Moby",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-global-industrial-company-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Are Wall Street Analysts Predicting Ingersoll Rand Stock Will Climb or Sink?",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8643508/are-wall-street-analysts-predicting-ingersoll-rand-stock-will-climb-or-sink-summary-despite-ingersoll-rands-outperformance-relative-to-the-broader-marke",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Is Global Industrial (GIC) Fairly Valued As Earnings And Dividends Lift Interest?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-industrial-gic-fairly-valued-111321949.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Does Earnings Growth Change The Bull Case For Global Industrial Stock (GIC)?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-earnings-growth-change-bull-102121287.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Global Industrial Co (GIC) (Q3 2026) Earnings Call Highlights: Double-Digit Revenue Growth, ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-industrial-co-gic-q3-070923418.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "What Global Industrial (GIC) Said on Its Q3 Earnings Call",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-what-global-industrial-gic-said-on-its-q3-earnings-call-2026-11-03/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Global Industrial’s (NYSE:GIC) Q3 2026 sales top estimates",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-industrial-nyse-gic-q3-222308415.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Global Industrial (GIC) Surpasses Q3 Earnings and Revenue Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-industrial-gic-surpasses-q3-215004929.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Global Industrial: Q3 Earnings Snapshot",
+        "source": "Associated Press",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-industrial-q3-earnings-snapshot-213249484.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "IIPR": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-02",
+    "days_to_earnings": -5,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-05",
+        "title": "Innovative Industrial Properties Inc (IIPR) (Q3 2026) Earnings Call Highlights: Record Leasing ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/real-estate/articles/innovative-industrial-properties-inc-iipr-070338080.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Innovative Industrial Properties Q3 Earnings Call Highlights",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-innovative-industrial-properties-q3-earnings-call-highlights-2026-11-03/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Innovative Industrial (IIPR) Q3 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/03/innovative-industrial-iipr-q3-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Innovative Industrial Properties: Q3 Earnings Snapshot",
+        "source": "Associated Press",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-q3-earnings-042716598.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Innovative Industrial Properties (IIPR) Beats Q3 FFO and Revenue Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-iipr-beats-231004138.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "beats"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Here's What Key Metrics Tell Us About Innovative Industrial Properties (IIPR) Q3 Earnings",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-230001804.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  },
+  "KO": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-27",
+    "days_to_earnings": -11,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Coca-Cola (KO) Stock May Be Fully Priced On Its 95% Run",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-may-221059648.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Coca-Cola Soars 12% in a Month to a 52-Week High: “Affordability Is Working”",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/coca-cola-soars-12-in-a-month-to-a-52-week-high-affordability-is-working?ref=yahoofinance&tlnk=yf-261106-cc8g6p3v",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "KFC makes surprising Pepsi decision after Coca-Cola switch",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/media-advertising/articles/kfc-makes-surprising-pepsi-decision-184639991.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "The Average 1-Year CD Pays Just 1.76%. These Dividend Stocks Could Pay More",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/the-average-1-year-cd-pays-just-1-76-these-dividend-stocks-could-pay-more/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Coca-Cola Stock Is a Buy Thanks to Shelf Space and Habits",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/06/coca-cola-stock-is-a-buy-thanks-to-shelf-space-and/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "4 Dividend Raisers With Balance Sheets Strong Enough to Keep Raising Through Any Downturn",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/4-dividend-raisers-with-balance-sheets-strong-enough-to-keep-raising-through-any-downturn/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Here's How Many Shares of This Unstoppable Dividend Stock You'd Need for $10,000 in Yearly Passive Income",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/06/shares-dividend-stock-10k-passive-income/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Coca-Cola vs P&G: Staples Rotation Crowns a Clear Income Winner",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/coca-cola-vs-pg-staples-rotation-crowns-a-clear-income-winner/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Rate Hikes Could Be Coming: History Likes These 4 Consumer Staples Stocks",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/rate-hikes-could-be-coming-history-likes-these-4-consumer-staples-stocks/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Coca-Cola Has Raised Its Dividend for 64 Straight Years. Here's What $10,000 Will Pay You in 2027.",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/06/coca-cola-has-raised-its-dividend-64-straight-year/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "LW": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-12-17",
+    "days_to_earnings": 40,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "CELH Q3 Earnings Top Estimates as Alani Nu Drives Revenue Growth",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/celh-q3-earnings-top-estimates-152500214.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Can Celsius Holdings' Brand Restructuring Drive Long-Term Growth?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/celsius-holdings-brand-restructuring-drive-152000022.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Primo Brands' Q3 Earnings Beat on Premium Water Growth",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/primo-brands-q3-earnings-beat-151300662.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "US Foods Q3 Earnings Surpass Estimates, Sales Increase Y/Y",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-foods-q3-earnings-surpass-144800078.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "INGR Q3 Earnings Miss Estimates as Higher Costs Hurt Margins",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ingr-q3-earnings-miss-estimates-143400761.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Lamb Weston (LW) Up 17.7% Since Last Earnings Report: Can It Continue?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lamb-weston-lw-17-7-153002915.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Will Hormel Foods' Marketing Shift Improve Return on Brand Spending?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hormel-foods-marketing-shift-improve-162900233.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "KHC Q3 Earnings Top Estimates, Emerging Markets Sales Rise",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/khc-q3-earnings-top-estimates-150500280.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Zacks.com featured highlights include Entergy, Evergy, Diageo and Lamb Weston",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-entergy-075000763.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Keurig Dr Pepper Q3 Earnings Beat on Beverage Growth, Sales Miss",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-pepper-q3-earnings-171100114.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "NOMD": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -3,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-05",
+        "title": "Nomad Foods: 3 Key Takeaways for Long-Term Investors",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/takeaways/2026/11/04/nomad-foods-3-key-takeaways-for-long-term-investors/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Nomad Foods Ltd (NOMD) (Q3 2026) Earnings Call Highlights: Return to Organic Growth, Discounter ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nomad-foods-ltd-nomd-q3-211125121.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Nomad Foods Limited Q3 2026 Earnings Call Summary",
+        "source": "Moby",
+        "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-nomad-foods-limited-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Nomad Foods Ltd (NOMD) Q3 2026 Earnings Call Highlights: Return to Organic Growth and Margin ...",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nomad-foods-ltd-nomd-q3-190731050.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Nomad Foods (NOMD) Q3 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/nomad-foods-nomd-q3-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "What Nomad Foods (NOMD) Said on Its Q3 Earnings Call",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-what-nomad-foods-nomd-said-on-its-q3-earnings-call-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Nomad Foods (NOMD) Q3 Earnings and Revenues Beat Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nomad-foods-nomd-q3-earnings-121004728.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Nomad Foods: Q3 Earnings Snapshot",
+        "source": "Associated Press",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nomad-foods-q3-earnings-snapshot-114947089.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "PG": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2027-01-21",
+    "days_to_earnings": 75,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Here's How Many Shares of Procter & Gamble You'd Need for $1,000 in Yearly Dividends",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/06/how-many-shares-procter-gamble-1k-dividends/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "The Average 1-Year CD Pays Just 1.76%. These Dividend Stocks Could Pay More",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/the-average-1-year-cd-pays-just-1-76-these-dividend-stocks-could-pay-more/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "4 Dividend Raisers With Balance Sheets Strong Enough to Keep Raising Through Any Downturn",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/4-dividend-raisers-with-balance-sheets-strong-enough-to-keep-raising-through-any-downturn/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Coca-Cola vs P&G: Staples Rotation Crowns a Clear Income Winner",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/coca-cola-vs-pg-staples-rotation-crowns-a-clear-income-winner/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Rate Hikes Could Be Coming: History Likes These 4 Consumer Staples Stocks",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/rate-hikes-could-be-coming-history-likes-these-4-consumer-staples-stocks/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Procter & Gamble vs. Colgate-Palmolive: Which Dividend Stock Is Safer?",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/05/procter-gamble-vs-colgate-palmolive-which-dividend-stock-is-safer/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "General Mills Just Gained 15% in a Month: Take Profits, or Buy More?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/general-mills-just-gained-12-in-a-month-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261105-grq8jxwm",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "3 Dependable Dividend Stocks for a $250,000 Passive Income Strategy",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/05/3-dependable-dividend-stocks-for-a-250000-passive-income-strategy/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "3 Dependable Dividend Stocks for a $250,000 Passive Income Strategy",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/05/3-dependable-dividend-stocks-for-a-250000-passive-income-strategy-2/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Coca-Cola Is Up 39% This Year. How Much of That Is Earnings and How Much Is Multiple?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/coca-cola-is-up-39-this-year-how-much-of-that-is-earnings-and-how-much-is-multiple?ref=yahoofinance&tlnk=yf-261105-4wj5vjhq",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RELX": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": null,
+    "days_to_earnings": null,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-04",
+        "title": "RELX (RELX) Exit: Generative AI Headwinds Prompt Portfolio Sale",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/relx-relx-exit-generative-ai-163500662.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "RELX Highlights AI Push as Elsevier STM Growth Accelerates to 6%",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/event-relx-highlights-ai-push-as-elsevier-stm-growth-accelerates-to-6-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Why RELX PLC’s (RELX) Data Advantage Matters More Than Ever?",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-relx-plc-relx-data-151122404.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Why RELX PLC (RELX) Could Benefit From AI Rather Than Fear It?",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-relx-plc-relx-could-145843326.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Grainger Heads These 3 British Dividend Stocks To Watch",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/grainger-heads-3-british-dividend-200919452.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RRC": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-27",
+    "days_to_earnings": -11,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Midterms Send Energy Packing, But These Sectors Gain In IBD 50",
+        "source": "Investor's Business Daily",
+        "url": "https://www.investors.com/stock-lists/ibd-50/ibd-50-energy-oil-stocks-health-care/?src=A00220&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "ConocoPhillips Q3 Earnings Beat Estimates on Higher Commodity Prices",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/energy/articles/conocophillips-q3-earnings-beat-estimates-112600636.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Why Is Everyone Ignoring Expand Energy Stock's High Cash Yield?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/exe/articles/622830/why-is-everyone-ignoring-expand-energy-stocks-high-cash-yield/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "1 surging  stock to research further and 2 we find risky",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/1-surging-stock-research-further-082136738.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "William Blair shakes up its top stock picks",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/william-blair-shakes-top-stock-162539821.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Venture Global Opens Commercial Operations at Plaquemines LNG Phase 1",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/energy/articles/venture-global-opens-commercial-operations-141600184.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Range Resources (RRC) Stock May Be 38% Undervalued On Merger Terms",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/range-resources-rrc-stock-may-002019766.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "S": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-12-03",
+    "days_to_earnings": 26,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-05",
+        "title": "SentinelOne (S) Expands AI Security Ties, Is The Stock Trading At A Discount?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sentinelone-expands-ai-security-ties-231551696.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "SentinelOne (S) Dips More Than Broader Market: What You Should Know",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sentinelone-dips-more-broader-market-220003812.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Can CrowdStrike Stock Rally 50% After This Dip?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/crwd/articles/622823/can-crowdstrike-stock-rally-50-after-this-dip/2026-11-05",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-03",
+        "title": "C3.ai vs. SentinelOne: Falling Revenue vs. Steady Sales Growth",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/coverage/charts/2026/11/02/c3ai-vs-sentinelone-falling-revenue-vs-steady-growth/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-02",
+        "title": "UiPath vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/02/uipath-vs-sentinelone-which-technology-stock-is-a-better-buy-for-2027/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "SG": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -2,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Here's What Key Metrics Tell Us About Sweetgreen (SG) Q3 Earnings",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-180001590.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Sweetgreen (SG) Q3 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/sweetgreen-sg-q3-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Sweetgreen, Inc. (SG) Reports Q3 Loss, Beats Revenue Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sweetgreen-inc-sg-reports-q3-000010846.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "beats"
+        ]
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sweetgreen moves same-store sales and traffic into positive territory",
+        "source": "Nation's Restaurant News",
+        "url": "https://www.nrn.com/fast-casual/sweetgreen-moves-same-store-sales-and-traffic-into-positive-territory",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sweetgreen (NYSE:SG) delivers impressive Q3 2026",
+        "source": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sweetgreen-nyse-sg-delivers-impressive-223256213.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Cava Stock Wilts After Earnings. Wall Street Is Paring Its Price Targets.",
+        "source": "Barrons.com",
+        "url": "https://www.barrons.com/articles/cava-stock-earnings-wall-street-price-targets-8ae79257?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sweetgreen Sees Milder Same-Store Sales Decline Following Rebound From Cyclospora Outbreak",
+        "source": "The Wall Street Journal",
+        "url": "https://www.wsj.com/business/earnings/sweetgreen-sees-milder-same-store-sales-decline-following-rebound-from-cyclospora-outbreak-aa77e43d?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "SG, SHAK & PZZA: Can These Restaurant Stocks Beat Q3 Estimates?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sg-shak-pzza-restaurant-stocks-163900528.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-04",
+        "title": "McDonald's (MCD) Beats Q3 Earnings Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-beats-q3-earnings-121003559.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "beats"
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Sony's Q2 Earnings on Deck: Can Gaming Maintain Its Profit Growth?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sonys-q2-earnings-deck-gaming-115200266.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  },
+  "SONY": {
+    "horizons": [
+      "medium",
+      "short"
+    ],
+    "next_earnings": "2027-02-04",
+    "days_to_earnings": 89,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Sony Group Stocks Slip 2.63% Despite Record 1.33 Trillion Yen Profit Forecast",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sony-group-stocks-slip-2-190525031.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "SONY Q2 Earnings Call Highlights Raised Outlook and Gaming Growth",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sony-q2-earnings-call-highlights-140000180.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Company News for Nov 6, 2026",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-nov-6-2026-133000440.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sony's 45% profit surge hides a PlayStation problem",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sonys-45-profit-surge-hides-184412783.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sony Group (SONY) Q2 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/sony-group-sony-q2-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sony Boosts Guidance as Profit Jumps on ‘Spider-Man’ Hit, Game Strength",
+        "source": "The Wall Street Journal",
+        "url": "https://www.wsj.com/business/earnings/sony-boosts-guidance-as-profit-jumps-on-spider-man-hit-game-strength-4e9322ae?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "SONY Q2 Earnings & Revenues Rise on Gaming & Pictures Strength",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sony-q2-earnings-revenues-rise-115400591.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sony raises annual profit forecast after strong Q2 results",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sony-raises-annual-profit-forecast-072019024.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Japan's Sony reports a hefty profit on the back of its blockbuster 'Spider-Man' movie",
+        "source": "Associated Press",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/japans-sony-reports-hefty-profit-094422566.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sony: Fiscal Q2 Earnings Snapshot",
+        "source": "Associated Press",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sony-fiscal-q2-earnings-snapshot-084712519.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "T": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2027-01-27",
+    "days_to_earnings": 81,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Better Dividend Stock: Verizon vs. AT&T",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/better-dividend-stock-verizon-vs-att?ref=yahoofinancedividend&tlnk=yf-261106-89mxfvpf",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Tutor Perini sees $200B in potential bids. Almost none of them are data centers.",
+        "source": "Construction Dive",
+        "url": "https://www.constructiondive.com/news/tutor-perini-q3-2026-earnings-not-data-centers/874040/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "How Much Passive Income $800,000 in Edison, International Paper, Altria and AT&T Pays Each Year",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/06/how-much-passive-income-800000-in-edison-international-paper-altria-and-att-pays-each-year/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Nasdaq Rout Gives Way to Unusual Options Activity and Bullish Bets on Nvidia, AT&T and Alphabet Stocks",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8705985/nasdaq-rout-gives-way-to-unusual-options-activity-and-bullish-bets-on-nvidia-at-t-and-alphabet-stocks",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "AST SpaceMobile Fell 26% in a Week. The November 9 Report Has to Answer the Dilution Question",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/ast-spacemobile-fell-26-in-a-week-the-november-9-report-has-to-answer-the-dilution-question?ref=yahoofinance&tlnk=yf-261106-q7xp296v",
+        "neg_hits": [
+          "dilut"
+        ],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Why Is EchoStar Stock Falling?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/echo/articles/623362/why-is-echostar-stock-falling/2026-11-06",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Is AST SpaceMobile (ASTS) Undervalued As AT&T Tests Direct To Device Satellite Handoff?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-undervalued-t-141118933.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Amphenol and Lindsay have been highlighted as Zacks Bull and Bear of the Day",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amphenol-lindsay-highlighted-zacks-bull-135500193.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "AT&T Stock Falls 11.8% in a Year: Should You Buy the Dip?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/t-stock-falls-11-8-135200234.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-06",
+        "title": "AT&T, T-Mobile Are Reportedly Ready To Boot Boost Mobile If SpaceX Buys It",
+        "source": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/at-and-t-t-mobile-are-reportedly-ready-to-boot-boost-mobile-if-space-x-buys-it/cNGlEqAR94p",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": true,
+    "keyword_positive": false
+  },
+  "XYZ": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-03",
+    "days_to_earnings": -4,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-06",
+        "title": "Block Jumps 11% in Two Days as Q3 Gross Profit Beats Its Own Guide by $110 Million",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/block-jumps-11-in-two-days-as-q3-gross-profit-beats-its-own-guide-by-110-million?ref=yahoofinance&tlnk=yf-261106-2xrc7pc2",
+        "neg_hits": [],
+        "pos_hits": [
+          "beats"
+        ]
+      },
+      {
+        "date": "2026-11-06",
+        "title": "PayPal Is Up 15% in Six Months After a Q3 Beat: Take Profits, or Buy More?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/paypal-is-up-15-in-six-months-after-a-q3-beat-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261106-5gv3fccr",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Robinhood Sinks 10%, SoFi Down 8% as Bitcoin Slides and Fintech Stocks Sell Off",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/robinhood-sinks-10-sofi-down-8-as-bitcoin-slides-and-fintech-stocks-sell-off?ref=yahoofinance&tlnk=yf-261105-hw3fq234",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Shift4’s 3Q Net Income Climbs Along with EBITDA",
+        "source": "Exec Edge",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/shift4-3q-net-income-climbs-211912736.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Jack Dorsey’s Block is cutting jobs again. Here’s what makes these layoffs different",
+        "source": "FastCompany",
+        "url": "https://www.fastcompany.com/91636771/jack-dorseys-block-is-cutting-jobs-again-heres-what-makes-these-layoffs-different",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Robinhood Sinks 12%, SoFi Tumbles 9%, Affirm Drops 8% as Bitcoin Slides and Democratic Congress Weighs on Fintech",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/05/robinhood-sinks-12-sofi-tumbles-9-affirm-drops-8-as-bitcoin-slides-and-democratic-congress-weighs-on-fintech/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sector Update: Financial Stocks Fall Thursday Afternoon",
+        "source": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-thursday-184316253.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Sezzle Has the Sizzle. How the Stock Can Surge Another 61%.",
+        "source": "Barrons.com",
+        "url": "https://www.barrons.com/articles/sezzle-earnings-stock-price-f900e342?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Block cutting more jobs months after Jack Dorsey’s massive AI-driven layoffs",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/block-cutting-more-jobs-months-171037879.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-05",
+        "title": "Block’s Bitcoin Gross Profit Falls by Half, Sets Aside $764 Million for Proposed DOJ Resolution",
+        "source": "CryptoProwl",
+        "url": "https://www.cryptoprowl.com/releases/blocks-bitcoin-gross-profit-falls-by-half-sets-aside-764-million-for-proposed-doj-resolution-7683",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  }
+}
