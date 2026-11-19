@@ -1,0 +1,1249 @@
+{
+  "AGL": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -15,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Is agilon health (AGL) Still Reasonable After Its Huge Run?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/agilon-health-agl-still-reasonable-232337610.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Agilon Health (AGL) Is Up 2.00% in One Week: What You Should Know",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/agilon-health-agl-2-00-160002969.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Best Momentum Stocks to Buy for November 16th",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-november-140000982.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Fast-paced Momentum Stock Agilon (AGL) Is Still Trading at a Bargain",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/fast-paced-momentum-stock-agilon-125502553.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "New Strong Buy Stocks for November 16th",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-16th-093500421.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AMN": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -14,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Eaton (ETN) Wins Falcon 10X Role On A Fair Value Debate",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-wins-falcon-10x-043521033.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Here's Why You Should Retain AMN Stock in Your Portfolio for Now",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/heres-why-retain-amn-stock-151300141.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "APLE": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -14,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-16",
+        "title": "APLE or EXR: Which Is the Better Value Stock Right Now?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aple-exr-better-value-stock-154003051.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "3 REITs Yielding More Than the 2027 Social Security COLA",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/16/3-reits-yielding-more-than-the-2027-social-security-cola/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AVTR": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -22,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-12",
+        "title": "Avantor: 3 Key Takeaways for Long-Term Investors",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/takeaways/2026/11/12/avantor-3-key-takeaways-for-long-term-investors/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AWK": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -22,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-16",
+        "title": "Capital Group Div. Growers (CGDG) Buys $37.6 Million More Alphabet Pref on Thursday",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/capital-group-div-growers-cgdg-110541488.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "SO Q3 Earnings Beat on Data Center Demand, Outlook Raised",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-beat-data-center-151600286.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "American Water Works (AWK) Stock Could Be 31% Overvalued Despite Merger Approval",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/american-water-works-awk-stock-201508316.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "approval"
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "title": "5 Best Water Recycling Stocks to Buy",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-water-recycling-stocks-174829536.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Divided Government Is Back: 4 Steady Passive Income Dividend Stocks to Own",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/12/divided-government-is-back-4-steady-passive-income-dividend-stocks-to-own/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "American Water Works Company (AWK) Refreshes Its Portal, Is The Stock Overvalued?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/american-water-works-company-awk-111137901.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "What Is American Water Works (AWK) Signaling With Its Website And West Virginia Upgrades?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/american-water-works-awk-signaling-091757663.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "upgrade"
+        ]
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  },
+  "BDX": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -14,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Becton, Dickinson and Company Stock Outlook: Is Wall Street Bullish or Bearish?",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8897702/becton-dickinson-and-company-stock-outlook-is-wall-street-bullish-or-bearish",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Accelerating Organic Growth Drives Becton, Dickinson and Company’s (BDX) Outperformance",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/accelerating-organic-growth-drives-becton-140454264.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "These 3 Dividend Stocks Have Crushed the Market This Year. Here’s Why They Are Still Buys",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/16/these-3-dividend-stocks-have-crushed-the-market-this-year-here-s-why-they-are-still-buys/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Should You Book Profits or Hold BSX Stock Post-Q3 Earnings?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/book-profits-hold-bsx-stock-140700610.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Is Boston Scientific Still The Business You Bought?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/bsx/articles/625243/is-boston-scientific-still-the-business-you-bought/2026-11-16",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-14",
+        "title": "Is There Any Reason To Invest In Edwards Lifesciences Stock?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ew/articles/624863/is-there-any-reason-to-invest-in-edwards-lifesciences-stock/2026-11-13",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "What JPMorgan Active Value ETF (JAVA) Bought: HCA Leads on Nov. 11",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-active-value-etf-java-110355677.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "What Happened To People Who Bought Thermo Fisher Stock At A High?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/tmo/articles/624685/what-happened-to-people-who-bought-thermo-fisher-stock-at-a-high/2026-11-12",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BEKE": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-16",
+    "days_to_earnings": -3,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Don't Overlook These Top-Rated Stocks After Q3 Earnings: ZIM, AS, BEKE",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dont-overlook-top-rated-stocks-231600814.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "BEKE Q3 Earnings Call Highlights Efficiency and Housing Recovery",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/real-estate/articles/beke-q3-earnings-call-highlights-140000607.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "KE Holdings (BEKE) Q3 2026 Earnings Call Transcript",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/16/ke-holdings-beke-q3-2026-earnings-call-transcript/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "What KE (BEKE) Said on Its Q3 Earnings Call",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-what-ke-beke-said-on-its-q3-earnings-call-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BMI": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-28",
+    "days_to_earnings": 70,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "How Unusual Is Itron's Latest Operating Margin?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/itri/articles/626256/how-unusual-is-itrons-latest-operating-margin/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Is It Worth Investing in Badger Meter (BMI) Based on Wall Street's Bullish Views?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-badger-meter-bmi-133001516.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BR": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-02-02",
+    "days_to_earnings": 75,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Marex Group (MRX) Partners To Expand Tokenized Securities Finance",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/marex-group-mrx-partners-expand-171658218.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "UK designates BlackRock, Bloomberg as critical third parties",
+        "source": "Reuters",
+        "url": "https://finance.yahoo.com/markets/articles/uk-designates-blackrock-bloomberg-critical-120019439.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Fund managers report AI efficiency gains despite training shortfall: Study",
+        "source": "Private Banker International",
+        "url": "https://www.privatebankerinternational.com/news/fund-managers-ai-efficiency-training/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "3 Stocks to Watch as Proxy Voting Demand Puts Broadridge Stock in Focus",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-watch-proxy-voting-191147513.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Coinbase, Broadridge to Bring Shareholder Voting Rights to Tokenized Stocks",
+        "source": "CryptoProwl",
+        "url": "https://www.cryptoprowl.com/releases/coinbase-broadridge-to-bring-shareholder-voting-rights-to-tokenized-stocks-7931",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "CAL": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-12-10",
+    "days_to_earnings": 21,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "5 Shoes & Retail Apparel Stocks to Watch as Industry Momentum Builds",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-shoes-retail-apparel-stocks-163000196.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Allen Edmonds Makes Its Debut at Harrods and Selfridges",
+        "source": "Footwear News",
+        "url": "https://wwd.com/footwear-news/shoe-industry-news/allen-edmonds-harrods-selfridges-mens-shoe-growth-1239412838/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Wolverine World Wide (WWW) Tops Q3 Earnings and Revenue Estimates",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wolverine-world-wide-tops-q3-114002935.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "DEO": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": null,
+    "days_to_earnings": null,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Exclusive-India to charge bulk Scotch imports 162.5% duty and tax amid UK pact standoff",
+        "source": "Reuters",
+        "url": "https://uk.finance.yahoo.com/news/exclusive-india-charge-bulk-scotch-104839116.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Target names food industry executive as a director",
+        "source": "Grocery Dive",
+        "url": "https://www.grocerydive.com/news/target-adds-food-industry-executive-to-board/874682/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-14",
+        "title": "Diageo (LSE:DGE) Could Be 7% Undervalued As Guinness Sales Come Under Pressure",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/diageo-lse-dge-could-7-020928175.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "European Equities Traded in the US as American Depositary Receipts Rise Marginally in Friday Trading",
+        "source": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/european-equities-traded-us-american-161727720.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "The Weekly Closeout: Target names a new board member and Centric Brands sells itself to CEO",
+        "source": "Retail Dive",
+        "url": "https://www.retaildive.com/news/target-board-member-centric-brands-ceo-fossil-turnaround/874550/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "Diageo (LSE:DGE) Sees India Impound More Than 40 Scotch Containers",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/diageo-lse-dge-sees-india-043554083.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Guinness boom may have peaked, says pubs boss",
+        "source": "The Telegraph",
+        "url": "https://uk.finance.yahoo.com/news/guinness-boom-may-peaked-says-161333280.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Guinness boom may have peaked, says pubs boss",
+        "source": "The Telegraph",
+        "url": "https://www.telegraph.co.uk/business/2026/11/12/guinness-boom-may-have-peaked-says-pubs-boss/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "DHR": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-27",
+    "days_to_earnings": 69,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Danaher Targets Faster Growth With Acquisitions, AI and a Diagnostics Push",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/event-danaher-targets-faster-growth-with-acquisitions-ai-and-a-diagnostics-push-2026-11-18/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": [
+          "acquisition"
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "title": "A Fund With $1 Billion in US Equities Just Bought These 3 Stocks",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/nan-fung-trinity-buys-meta-danaher-boeing?ref=yahoofinance&tlnk=yf-261117-5jgch6xj",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Has The Story Under Bruker Stock Run Out?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/brkr/articles/625556/has-the-story-under-bruker-stock-run-out/2026-11-17",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "What Was Waters Telling You Before Its Stock Ran?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/wat/articles/625190/what-was-waters-telling-you-before-its-stock-ran/2026-11-16",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "A $5.9 Billion Fund Bought These 3 Stocks",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/a-5-9-billion-fund-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261115-jfcvwwr2",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Danaher (DHR) Is A Key Supplier In Fast Growing Bioprocessing Markets",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/healthcare/articles/danaher-dhr-key-supplier-fast-190908830.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "What Happened To People Who Bought Thermo Fisher Stock At A High?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/tmo/articles/624685/what-happened-to-people-who-bought-thermo-fisher-stock-at-a-high/2026-11-12",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "What Are Corning Investors Betting On?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/glw/articles/624667/what-are-corning-investors-betting-on/2026-11-12",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "A Memo To Danaher's Biotechnology Team About Turning Orders Into Sales",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/dhr/articles/624705/a-memo-to-danahers-biotechnology-team-about-turning-orders-into-sales/2026-11-12",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  },
+  "DV": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-30",
+    "days_to_earnings": -20,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-12",
+        "title": "6 ETFs Cut DoubleVerify (DV) Holdings on Nov. 10",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/6-etfs-cut-doubleverify-dv-110338661.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "ETSY": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -22,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "What Moved Coupang Stock Over 5% Lower?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/cpng/articles/625841/what-moved-coupang-stock-over-5-lower/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "What Would It Take For Pinterest Stock To Reach Its High Again?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/pins/articles/626263/what-would-it-take-for-pinterest-stock-to-reach-its-high-again/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "How Has eBay's Growth Story Changed?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ebay/articles/625205/how-has-ebays-growth-story-changed/2026-11-16",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Etsy vs. Five Below: Which Growth Stock Is the Better Buy?",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/15/etsy-vs-five-below-which-growth-stock-is-the-better-buy/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "Must-Watch Gig Economy Stocks to Charge Up Your Portfolio",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/small-business/articles/must-watch-gig-economy-stocks-131700203.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Chewy vs. Etsy: Which Consumer Stock Is a Better Buy for 2027?",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/12/chewy-vs-etsy-which-consumer-stock-is-a-better-buy-for-2027/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "EW": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -15,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Should You Buy GE HealthCare Stock For Its Cash?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/gehc/articles/626153/should-you-buy-ge-healthcare-stock-for-its-cash/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "How Long Can HeartFlow Keep Burning Cash?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/htfl/articles/625767/how-long-can-heartflow-keep-burning-cash/2026-11-17",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Are Wall Street Analysts Predicting Edwards Lifesciences Stock Will Climb or Sink?",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8856743/are-wall-street-analysts-predicting-edwards-lifesciences-stock-will-climb-or-sink",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Should You Book Profits or Hold BSX Stock Post-Q3 Earnings?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/book-profits-hold-bsx-stock-140700610.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-14",
+        "title": "Is There Any Reason To Invest In Edwards Lifesciences Stock?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ew/articles/624863/is-there-any-reason-to-invest-in-edwards-lifesciences-stock/2026-11-13",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "Top Stock Reports for Visa, ExxonMobil & Pfizer",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-visa-exxonmobil-201900445.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "A $9.2 Billion Fund Dumps These 3 Stocks",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/a-9-2-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261113-73q37c26",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Boston Scientific Bets on WATCHMAN Growth Despite Market Slowdown",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/boston-scientific-bets-watchman-growth-162100939.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "HHH": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -14,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-13",
+        "title": "Howard Hughes Holdings (HHH) Could Be 1% Undervalued After Earnings And Vantage Expansion",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/real-estate/articles/howard-hughes-holdings-hhh-could-121244540.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "Howard Hughes Holdings (HHH) Stock Could Be 29% Undervalued Following Its Asset Light Shift",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/real-estate/articles/howard-hughes-holdings-hhh-stock-081302879.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "What You Actually Own When You Buy Pershing Square Stock",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/12/what-you-actually-own-when-you-buy-pershing-square-stock/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "LION": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2027-02-04",
+    "days_to_earnings": 77,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "LW": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-12-17",
+    "days_to_earnings": 28,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Can Medifast's Coaching Model Complement GLP-1 Weight-Loss Drugs?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/medifasts-coaching-model-complement-glp-163900422.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "McCormick Raises Quarterly Dividend, Reinforces Shareholder Returns",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mccormick-raises-quarterly-dividend-reinforces-144100756.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Can Hershey's Reese's Innovation Help Reverse Market Share Losses?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hersheys-reeses-innovation-help-reverse-134200619.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Stay Ahead of Market Uncertainty With LNG, TTE, LW and HAS",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stay-ahead-market-uncertainty-lng-132200005.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Tyson Foods' Q4 Earnings Miss Estimates as Beef Losses Widen",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-q4-earnings-miss-144400754.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Is Lamb Weston (LW) Stock Outpacing Its Consumer Staples Peers This Year?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lamb-weston-lw-stock-outpacing-134002923.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "3 Consumer Staples Stocks Investors Are Watching As Producer Inflation Heats Up",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-staples-stocks-investors-071030603.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "Flowers Foods Q3 Earnings Miss on Weak Volumes, 2026 Outlook Cut",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/flowers-foods-q3-earnings-miss-140800072.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "3 Low-Beta Consumer Staple Stocks to Buy as Inflation Stays Elevated",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-low-beta-consumer-staple-162400254.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "MRSH": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-28",
+    "days_to_earnings": 70,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Marsh Sees 8.2% Health Cost Surge in 2027: Consulting Growth Ahead?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/marsh-sees-8-2-health-134800844.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "What Are Wall Street Analysts' Target Price for Marsh & McLennan Stock?",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8874382/what-are-wall-street-analysts-target-price-for-marsh-mclennan-stock",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "NOMD": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -15,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RELX": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": null,
+    "days_to_earnings": null,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-14",
+        "title": "These British Dividend Stocks Are Top Of The Class For November 2026",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/british-dividend-stocks-top-class-220914712.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RNG": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-22",
+    "days_to_earnings": -28,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Do You Like Cash? Consider Zoom Stock",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/zm/articles/626159/do-you-like-cash-consider-zoom-stock/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "RingCentral CEO Vlad Shmunis Reveals What Drove 6% Subscription Rev. Boost in Q3",
+        "source": "NYSE",
+        "url": "https://finance.yahoo.com/video/ringcentral-ceo-vlad-shmunis-reveals-155154169.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-13",
+        "title": "Can Twilio Convert Rising AI Demand Into Lasting Revenue Growth?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/technology/ai/articles/twilio-convert-rising-ai-demand-112300807.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "What Explains The Move In Zoom Stock?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/zm/articles/624713/what-explains-the-move-in-zoom-stock/2026-11-12",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RPC": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -15,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RYAN": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-29",
+    "days_to_earnings": -21,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "SG": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -14,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-17",
+        "title": "Red Robin Gears Up for Q3 Earnings: What's in the Cards for the Stock?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/red-robin-gears-q3-earnings-135600738.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "Meet the Sweetgreen managers who could make $200,000 training the chain’s next generation of restaurateurs",
+        "source": "Fortune",
+        "url": "https://finance.yahoo.com/small-business/articles/meet-sweetgreen-managers-could-200-093500875.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Sweetgreen Stock Soars 112% in 3 Months: More Upside Ahead?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sweetgreen-stock-soars-112-3-150900487.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "SMA": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -15,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "TFX": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -14,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-15",
+        "title": "Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot",
+        "source": "FreightWaves",
+        "url": "https://finance.yahoo.com/economy/articles/borderlands-mexico-texas-cross-border-120000690.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "W": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -15,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-17",
+        "title": "Buy This Anti-AI Stock at New 52-Week Lows for Long-Term Value Creation",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8882020/buy-this-anti-ai-stock-at-new-52-week-lows-for-long-term-value-creation",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Cisco upgraded, PepsiCo downgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-upgraded-doximity-downgraded-wall-134558910.html",
+        "neg_hits": [
+          "downgrade"
+        ],
+        "pos_hits": [
+          "upgrade"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Strong Q2 Results Validate Multi-Year Conviction in Wayfair (W)",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/strong-q2-results-validate-multi-142322151.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "2 Brilliant Stocks to Buy Before 2027",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/15/2-brilliant-stocks-to-buy-before-2027/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "Wayfair: 3 Key Takeaways for Long-Term Investors",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/earnings/takeaways/2026/11/15/wayfair-3-key-takeaways-for-long-term-investors/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": true,
+    "keyword_positive": true
+  },
+  "WTRG": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-03",
+    "days_to_earnings": -16,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-12",
+        "title": "American Water Works (AWK) Stock Could Be 31% Overvalued Despite Merger Approval",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/american-water-works-awk-stock-201508316.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "approval"
+        ]
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  },
+  "XYZ": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-03",
+    "days_to_earnings": -16,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Jay-Z-Backed Music Financing Startup Duetti Raises $665M",
+        "source": "AfroTech",
+        "url": "https://finance.yahoo.com/media-advertising/articles/jay-z-backed-music-financing-175205249.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "A $12 Billion Fund Dumps These 3 Stocks",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261118-x79qh686",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Intuit to Report Q1 Earnings: Should You Buy, Sell or Hold the Stock?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intuit-report-q1-earnings-buy-153800339.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Wall Street Analysts Think Block (XYZ) Could Surge 27.81%: Read This Before Placing a Bet",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-block-135503213.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Cathie Wood's ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
+        "source": "decrypt",
+        "url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Glenview Makes Two Very Different Moves on CVS and Meta",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/glenview-makes-two-very-different-155905907.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Cathie Wood’s ARK Invest Sells $85 Million of Nvidia, Adds Block, Circle and Coinbase",
+        "source": "CryptoProwl",
+        "url": "https://www.cryptoprowl.com/releases/cathie-woods-ark-invest-sells-85-million-of-nvidia-adds-block-circle-and-coinbase-7950",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "UBS Raises Its Block Target to $105. Is It Still Too Low?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/ubs-raises-its-block-target-to-105-is-it-still-too-low?ref=yahoofinance&tlnk=yf-261117-942jvfpp",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Cathie Wood's ARK Sells Solana And Ethereum Staking Funds, Buys Three Crypto Stocks Amid Bitcoin Slide",
+        "source": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-solana-ethereum-staking-three-crypto-stocks-bitcoin-slide/cNbakNNR9gH",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "POS competition lightens up",
+        "source": "Payments Dive",
+        "url": "https://www.paymentsdive.com/news/pos-competition-lightens-up/874648/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  }
+}
