@@ -1,0 +1,1249 @@
+{
+  "AMN": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -16,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Eaton (ETN) Wins Falcon 10X Role On A Fair Value Debate",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-wins-falcon-10x-043521033.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "APLE": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -16,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-16",
+        "title": "APLE or EXR: Which Is the Better Value Stock Right Now?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aple-exr-better-value-stock-154003051.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "3 REITs Yielding More Than the 2027 Social Security COLA",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/16/3-reits-yielding-more-than-the-2027-social-security-cola/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "AVTR": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -24,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BILL": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2027-02-04",
+    "days_to_earnings": 75,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bill-private-6-billion-acquisition-171000924.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "acquisition"
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Bill sells for $6B to TPG, Corpay",
+        "source": "Payments Dive",
+        "url": "https://www.paymentsdive.com/news/bill-sells-for-6b-to-tpg-corpay/875331/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "BILL to be acquired by TPG and Corpay in $6 billion all-cash deal",
+        "source": "Proactive",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102198/bill-to-be-acquired-by-tpg-and-corpay-in-6-billion-all-cash-deal-1102198.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "acquire"
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Tesla upgraded, Berkshire Hathaway downgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-upgraded-applovin-initiated-wall-135331262.html",
+        "neg_hits": [
+          "downgrade"
+        ],
+        "pos_hits": [
+          "upgrade"
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "title": "TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
+        "source": "The Wall Street Journal",
+        "url": "https://www.wsj.com/business/deals/tpg-corpay-to-buy-finance-platform-bill-for-about-6-billion-9f8be10c?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Why Is BILL Stock Going Up?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/bill/articles/626273/why-is-bill-stock-going-up/2026-11-19",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "BILL Holdings to be taken private by TPG and Corpay in $6 billion cash deal",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-taken-private-tpg-233844629.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "BILL Holdings (BILL) is an Incredible Growth Stock: 3 Reasons Why",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-incredible-growth-164503851.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Anthropic initiated, MongoDB upgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "url": "https://finance.yahoo.com/news/meta-downgraded-mongodb-upgraded-wall-143614569.html",
+        "neg_hits": [],
+        "pos_hits": [
+          "upgrade"
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "title": "TPG closes in on Bill Holdings buyout – report",
+        "source": "Electronic Payments",
+        "url": "https://www.electronicpaymentsinternational.com/news/tpg-bill-holdings-buyout/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": true,
+    "keyword_positive": true
+  },
+  "BMI": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-28",
+    "days_to_earnings": 68,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Does Badger Meter (BMI) Stock Leave Enough Upside For Investors?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-badger-meter-bmi-stock-021036287.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "6% Undervalued Badger Meter (BMI) As Dividend Reaffirmation Meets Valuation Debate",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/6-undervalued-badger-meter-bmi-011648524.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "How Unusual Is Itron's Latest Operating Margin?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/itri/articles/626256/how-unusual-is-itrons-latest-operating-margin/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BOW": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-03",
+    "days_to_earnings": -18,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "BR": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-02-02",
+    "days_to_earnings": 73,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-19",
+        "title": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/how-many-shares-of-ibm-or-broadridge-financial-solutions-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261119-crwc83v6",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Marex Group (MRX) Partners To Expand Tokenized Securities Finance",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/marex-group-mrx-partners-expand-171658218.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "UK designates BlackRock, Bloomberg as critical third parties",
+        "source": "Reuters",
+        "url": "https://finance.yahoo.com/markets/articles/uk-designates-blackrock-bloomberg-critical-120019439.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Fund managers report AI efficiency gains despite training shortfall: Study",
+        "source": "Private Banker International",
+        "url": "https://www.privatebankerinternational.com/news/fund-managers-ai-efficiency-training/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "3 Stocks to Watch as Proxy Voting Demand Puts Broadridge Stock in Focus",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-watch-proxy-voting-191147513.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Coinbase, Broadridge to Bring Shareholder Voting Rights to Tokenized Stocks",
+        "source": "CryptoProwl",
+        "url": "https://www.cryptoprowl.com/releases/coinbase-broadridge-to-bring-shareholder-voting-rights-to-tokenized-stocks-7931",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "CHPT": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-12-03",
+    "days_to_earnings": 12,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-17",
+        "title": "Why ChargePoint Holdings, Inc. (CHPT) Dipped More Than Broader Market Today",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-chargepoint-holdings-inc-chpt-221502038.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "CLH": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -24,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Is Republic Services Stock A Mistake At Its High?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/rsg/articles/626259/is-republic-services-stock-a-mistake-at-its-high/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "CLH Stock Rises 41% in a Year: Here's What Investors Should Know",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/clh-stock-rises-41-heres-153100552.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "DHR": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-27",
+    "days_to_earnings": 67,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Danaher Corporation (DHR) Raised Its Earnings Guidance as Core Growth Recovered: Is the Turnaround Gaining Momentum?",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/danaher-corporation-dhr-raised-earnings-172231300.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Danaher (DHR) Down 1% Since Last Earnings Report: Can It Rebound?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-down-1-since-153005610.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Stanley Druckenmiller, Dan Loeb and 12 Other Big Funds Sold Danaher Last Quarter, While 26 Bought. Who’s Right?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/stanley-druckenmiller-dan-loeb-and-12-other-big-funds-sold-danaher-last-quarter-while-26-bought-whos-right?ref=yahoofinance&tlnk=yf-261120-7j639x8m",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Danaher Teams Up With Microsoft To Develop AI-Powered Scientific Instruments, First Applications Expected This Year",
+        "source": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/danaher-teams-up-with-microsoft-to-develop-ai-powered-scientific-instruments-first-applications-expected-this-year/cNbSKjHR9Kx",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "A $22 Billion Hedge Fund Just Bought These 3 Stocks",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/a-22-billion-hedge-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261119-h7j237mf",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "How Much Of Corning Stock's Rise Came From Sales?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/glw/articles/626872/how-much-of-corning-stocks-rise-came-from-sales/2026-11-19",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "If You Ran Abbott, What Would You Do?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/abt/articles/626883/if-you-ran-abbott-what-would-you-do/2026-11-19",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Parker Hannifin Stock Is Waiting On One Answer",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ph/articles/626843/parker-hannifin-stock-is-waiting-on-one-answer/2026-11-19",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "FDA clears Masimo’s brain function monitor",
+        "source": "Medical Device Network",
+        "url": "https://www.medicaldevice-network.com/news/fda-masimos-smartsedline-brain-monitor/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Danaher Targets Faster Growth With Acquisitions, AI and a Diagnostics Push",
+        "source": "MarketBeat",
+        "url": "https://www.marketbeat.com/instant-alerts/event-danaher-targets-faster-growth-with-acquisitions-ai-and-a-diagnostics-push-2026-11-18/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "neg_hits": [],
+        "pos_hits": [
+          "acquisition"
+        ]
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": true
+  },
+  "DV": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-30",
+    "days_to_earnings": -22,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "ETSY": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-28",
+    "days_to_earnings": -24,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Etsy (ETSY) Stock Looks Stretched Even After A 73% Fall",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etsy-etsy-stock-looks-stretched-021055501.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "DICK'S Sporting Goods vs. Etsy: Which Consumer Stock Is a Better Buy for 2027?",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/19/dicks-sporting-goods-vs-etsy-which-consumer-stock-is-a-better-buy-for-2027/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "What Moved Coupang Stock Over 5% Lower?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/cpng/articles/625841/what-moved-coupang-stock-over-5-lower/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "What Would It Take For Pinterest Stock To Reach Its High Again?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/pins/articles/626263/what-would-it-take-for-pinterest-stock-to-reach-its-high-again/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "How Has eBay's Growth Story Changed?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ebay/articles/625205/how-has-ebays-growth-story-changed/2026-11-16",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Etsy vs. Five Below: Which Growth Stock Is the Better Buy?",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/15/etsy-vs-five-below-which-growth-stock-is-the-better-buy/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "GHC": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-29",
+    "days_to_earnings": -23,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-16",
+        "title": "Graham Holdings (GHC) Stock Looks About Right For Its Earnings",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/graham-holdings-ghc-stock-looks-232329920.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "GPOR": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -17,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-17",
+        "title": "Ingram Micro Holdings and Ethan Allen have been highlighted as Zacks Bull and Bear of the Day",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ingram-micro-holdings-ethan-allen-123800086.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "GTN": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-06",
+    "days_to_earnings": -15,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "HG": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-10-29",
+    "days_to_earnings": -23,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Wall Street Analysts Think Hamilton Insurance (HG) Is a Good Investment: Is It?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-hamilton-133004435.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Copper falls toward March lows as physical shortages and futures diverge",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/copper-falls-toward-march-lows-130207863.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "FTSE 100 today: Stocks plunge to worst week since March on tech, metals rout",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-fall-085409825.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-slides-14-mth-low-050203857.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Is the copper sell-off setting up a longer-term buying opportunity? UBS explains",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/copper-sell-off-setting-longer-154033203.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Copper’s partial rebound: physical tightness vs. bearish sentiment",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/copper-partial-rebound-physical-tightness-132418339.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Copper slides despite tight physical supply — what is driving the selloff",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/copper-slides-despite-tight-physical-171222473.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "UBS sees gold at $5,000 by the end of 2027, Brent easing to $80",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/ubs-sees-gold-5-000-125114896.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Aon Closes $17 Billion USI Deal, Expanding U.S. Market Reach",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aon-closes-17-billion-usi-162400892.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "UBS sees Brent hitting $110 as tight supply buffers leave oil vulnerable",
+        "source": "Investing.com",
+        "url": "https://finance.yahoo.com/energy/articles/ubs-sees-brent-hitting-110-223600200.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "KEX": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2027-01-28",
+    "days_to_earnings": 68,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-17",
+        "title": "Avantis U.S. Small Cap Value ETF (AVUV) Buys $9.1 Million More CTVA on Nov. 13",
+        "source": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-small-cap-value-110407643.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "KNSL": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-10-22",
+    "days_to_earnings": -30,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-17",
+        "title": "KNSL Stock Gains 23.3% in Six Months: Here's What Investors Should Know",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/knsl-stock-gains-23-3-165500814.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Here's How Much a $1000 Investment in Kinsale Capital Group, Inc. Made 10 Years Ago Would Be Worth Today",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-kinsale-123001627.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "LW": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-12-17",
+    "days_to_earnings": 26,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Can Mondelez's Emerging Markets Fuel Long-Term Growth?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mondelezs-emerging-markets-fuel-long-145000097.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "POST Q4 Earnings Top Estimates as Cost Controls Support Margins",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/post-q4-earnings-top-estimates-144800581.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "BellRing Brands Q4 Earnings Beat Estimates on Strong Premier Volumes",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-q4-earnings-beat-161100473.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Can Medifast's Coaching Model Complement GLP-1 Weight-Loss Drugs?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/medifasts-coaching-model-complement-glp-163900422.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "McCormick Raises Quarterly Dividend, Reinforces Shareholder Returns",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mccormick-raises-quarterly-dividend-reinforces-144100756.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Can Hershey's Reese's Innovation Help Reverse Market Share Losses?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hersheys-reeses-innovation-help-reverse-134200619.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Stay Ahead of Market Uncertainty With LNG, TTE, LW and HAS",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stay-ahead-market-uncertainty-lng-132200005.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Tyson Foods' Q4 Earnings Miss Estimates as Beef Losses Widen",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-q4-earnings-miss-144400754.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Is Lamb Weston (LW) Stock Outpacing Its Consumer Staples Peers This Year?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lamb-weston-lw-stock-outpacing-134002923.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "3 Consumer Staples Stocks Investors Are Watching As Producer Inflation Heats Up",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-staples-stocks-investors-071030603.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "MRSH": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2027-01-28",
+    "days_to_earnings": 68,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Will Synpulse Buyout Boost Marsh's Consulting Growth Prospects?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/technology/ai/articles/synpulse-buyout-boost-marshs-consulting-165800915.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Marsh McLennan (MRSH) Stock Could Trade At A Discount To Fair Value",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marsh-mclennan-mrsh-stock-could-111303978.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Marsh & McLennan Companies (MRSH) Is Back In The Spotlight, What Is Driving Attention?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marsh-mclennan-companies-mrsh-back-081141311.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Aon Strengthens Digital Claims Capabilities With Swiss Re Corporate",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/technology/articles/aon-strengthens-digital-claims-capabilities-171000157.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Marsh Sees 8.2% Health Cost Surge in 2027: Consulting Growth Ahead?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/healthcare/articles/marsh-sees-8-2-health-134800844.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "What Are Wall Street Analysts' Target Price for Marsh & McLennan Stock?",
+        "source": "Barchart",
+        "url": "https://www.barchart.com/story/news/8874382/what-are-wall-street-analysts-target-price-for-marsh-mclennan-stock",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "NOMD": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-04",
+    "days_to_earnings": -17,
+    "earnings_risk": false,
+    "news": [],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "NVRI": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -16,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-19",
+        "title": "Wall Street Analysts Believe Enviri Corporation (NVRI) Could Rally 27.6%: Here's is How to Trade",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-believe-enviri-135502102.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "PG": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2027-01-21",
+    "days_to_earnings": 61,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Here's How Many Shares of Procter & Gamble You'd Need for $1,000 in Yearly Dividends",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/20/heres-how-many-shares-of-procter-gamble-youd-need-for-1000-in-yearly-dividends/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Week’s Best: Schwab Claims Dividend King Title",
+        "source": "Barrons.com",
+        "url": "https://www.barrons.com/advisor/articles/weeks-best-schwab-claims-dividend-king-title-2452c0a4?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "These 4 Conservative Dow Jones Industrials Dividend Stocks Are Built for Sell-Offs",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/20/these-4-conservative-dow-jones-industrials-dividend-stocks-are-built-for-sell-offs/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Is P&G Stock a Good Fit For Your Portfolio Risk?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/pg/articles/627261/is-pg-stock-a-good-fit-for-your-portfolio-risk/2026-11-20",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "How Retirees Can Turn $750,000 Into Passive Income With These 5 Dividend Stocks",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/20/how-retirees-can-turn-750000-into-passive-income-with-these-5-dividend-stocks/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Procter & Gamble Wants $10 Billion in Savings and Fewer Factory Workers",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/20/procter-gamble-wants-10-billion-in-savings-and-fewer-factory-workers/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "P&G Has Raised Its Dividend 70 Years In A Row. Now It Plans To Cut Up To 30% Of Its Manufacturing And Logistics Workforce By 2030 As It Targets Up To $10 Billion In Savings",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/20/pg-has-raised-its-dividend-70-years-in-a-row-now-it-plans-to-cut-up-to-30-of-its-manufacturing-and-logistics-workforce-by-2030-as-it-targets-up-to-10-billion-in-savings/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Money Market Funds vs. Dividend Stocks: Where Retirees Should Keep Their Cash",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/20/money-market-funds-vs-dividend-stocks-where-retirees-should-keep-their-cash/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "The Zacks Analyst Blog Highlights Berkshire Hathaway, JPMorgan, Procter & Gamble and National Presto",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-berkshire-133900318.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Want Reliable Dividend Passive Income? These 5 Stocks Raise Their Payouts Year After Year",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/20/want-reliable-dividend-passive-income-these-5-stocks-raise-their-payouts-year-after-year/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RELX": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": null,
+    "days_to_earnings": null,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-14",
+        "title": "These British Dividend Stocks Are Top Of The Class For November 2026",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/british-dividend-stocks-top-class-220914712.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "RNG": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-10-22",
+    "days_to_earnings": -30,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-18",
+        "title": "Do You Like Cash? Consider Zoom Stock",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/zm/articles/626159/do-you-like-cash-consider-zoom-stock/2026-11-18",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "S": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-12-03",
+    "days_to_earnings": 12,
+    "earnings_risk": true,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "CrowdStrike, Zscaler Merger Would Create Cybersecurity Giant",
+        "source": "Investor's Business Daily",
+        "url": "https://www.investors.com/news/technology/crowdstrike-zscaler-merger-create-cybersecurity-giant/?src=A00220&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-20",
+        "title": "SentinelOne (S) Could Be 4% Undervalued Following Its Singapore Defence Win",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sentinelone-could-4-undervalued-following-011606435.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Why Did Netskope Stock Move?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ntsk/articles/626890/why-did-netskope-stock-move/2026-11-19",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Could You Have Spotted Netskope Stock's Doubling Early?",
+        "source": "Trefis",
+        "url": "https://www.trefis.com/stock/ntsk/articles/626953/could-you-have-spotted-netskope-stocks-doubling-early/2026-11-19",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "SentinelOne (S) Stock Could Be 18% Undervalued After AI SOC Recognition",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sentinelone-stock-could-18-undervalued-111213773.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "What Does SentinelOne (S) Frost Radar Recognition Really Change?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-sentinelone-frost-radar-recognition-101202817.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "SentinelOne (S) Is Heating Up — Here’s What’s Driving It",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sentinelone-heating-driving-035158591.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "AI Risks Lift Cyber Stocks as Software Looks to Shrug Off Slump",
+        "source": "Barrons.com",
+        "url": "https://www.barrons.com/articles/cybersecurity-software-stocks-palo-alto-eaaa4906?siteid=yhoof2&yptr=yahoo",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Okta vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/18/okta-vs-sentinelone-which-technology-stock-is-a-better-buy-for-2027/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Why SentinelOne (S) Dipped More Than Broader Market Today",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-sentinelone-dipped-more-broader-220002088.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "SG": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -16,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Sweetgreen or Chipotle: Which Fast-Casual Stock Is a Better Buy?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sweetgreen-chipotle-fast-casual-stock-142600186.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Red Robin Gears Up for Q3 Earnings: What's in the Cards for the Stock?",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/red-robin-gears-q3-earnings-135600738.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-15",
+        "title": "Meet the Sweetgreen managers who could make $200,000 training the chain’s next generation of restaurateurs",
+        "source": "Fortune",
+        "url": "https://finance.yahoo.com/small-business/articles/meet-sweetgreen-managers-could-200-093500875.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "TFX": {
+    "horizons": [
+      "medium"
+    ],
+    "next_earnings": "2026-11-05",
+    "days_to_earnings": -16,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-15",
+        "title": "Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot",
+        "source": "FreightWaves",
+        "url": "https://finance.yahoo.com/economy/articles/borderlands-mexico-texas-cross-border-120000690.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "WMB": {
+    "horizons": [
+      "short"
+    ],
+    "next_earnings": "2026-11-02",
+    "days_to_earnings": -19,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-20",
+        "title": "Hess Midstream Stock And 2 Top Pipeline Stocks",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/energy/articles/hess-midstream-stock-2-top-181132468.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Morgan Stanley’s Vintage Values 2027: 5 Stocks Analysts See Climbing Further",
+        "source": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-vintage-values-2027-223235273.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "How Many Shares of Kinder Morgan or Williams Pay $1,000 a Month in Dividends?",
+        "source": "TIKR",
+        "url": "https://www.tikr.com/blog/how-many-shares-of-kinder-morgan-or-williams-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261119-p39q63w5",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Enterprise Products' Permian Expansion Supports Growth Prospects",
+        "source": "Zacks",
+        "url": "https://finance.yahoo.com/energy/articles/enterprise-products-permian-expansion-supports-173100313.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Williams (WMB) Stock Could Be Rich Despite Fresh Capital Spending News",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/williams-wmb-stock-could-rich-091126654.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "3 Energy Stocks to Buy Before 2026 Ends That Could Help You Make a Fortune",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/19/3-energy-stocks-to-buy-before-2026-ends-that-could-help-you-make-a-fortune/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Williams Companies (WMB) Leans On Power Growth, Is The Upside Already Priced In?",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-wmb-leans-power-071042283.html",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "3 Energy Stocks With Dividends Built to Last the Next 10 Years",
+        "source": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/18/3-energy-stocks-with-dividends-built-to-last-the-next-10-years/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "3 Pipeline Dividends Built for a Roth IRA, and Why Pipeline Partnerships May Not Be",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/18/3-pipeline-dividends-built-for-a-roth-ira-and-why-pipeline-partnerships-may-not-be/",
+        "neg_hits": [],
+        "pos_hits": []
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Meet Wall Street’s Reliable High-Yield Dividend Stocks: 5 Companies That Pass the Yield Trap Test",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/18/meet-wall-streets-reliable-high-yield-dividend-stocks-5-companies-that-pass-the-yield-trap-test/",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  },
+  "WPP": {
+    "horizons": [
+      "long"
+    ],
+    "next_earnings": null,
+    "days_to_earnings": null,
+    "earnings_risk": false,
+    "news": [
+      {
+        "date": "2026-11-14",
+        "title": "Nvidia Fallout Puts WPP Stock And Crisis Advisory Firms In Focus",
+        "source": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-fallout-puts-wpp-stock-061455897.html",
+        "neg_hits": [],
+        "pos_hits": []
+      }
+    ],
+    "keyword_negative": false,
+    "keyword_positive": false
+  }
+}
